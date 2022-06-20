@@ -1,0 +1,38 @@
+##External imports
+import numpy as np
+import fastf1
+import pandas as pd
+
+#Internal Imports
+import os
+import re
+from datetime import date
+import requests
+import datetime
+
+#Enable the F1 local cache connection
+fastf1.Cache.enable_cache('./FastF1Cache')
+
+#Fetching the driver information
+list_of_schedules = os.listdir("../../csv_data/schedule_data")
+drivers = pd.DataFrame(columns = ["RacingNumber", "BroadcastName", "FullName", "Tla", "Line", "TeamName", "TeamColour", "FirstName", "LastName", ""])
+#print(pd.read_csv("../../csv_data/schedule_data/{}".format(list_of_schedules[0])))
+#Get the initial name information to start the dictionary relationship
+
+def get_yearly_driver_data(driver_df, year):
+    #Get the driver data for the year
+    df = pd.read_csv("../../csv_data/schedule_data/{}".format(year))
+    for race in df.index:
+        curr_race = df.loc[race]
+        fastf1.get_session(year, curr_race['Location'], 'R')
+
+
+        
+
+    
+
+
+#for year in list_of_schedules:
+#    df = pd.read_csv("../../csv_data/schedule_data/" + year)]
+
+
