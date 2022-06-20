@@ -1,0 +1,106 @@
+##External imports
+from email import message
+from matplotlib.pyplot import eventplot
+import numpy as np
+import fastf1
+import pandas as pd
+import fastf1.api
+
+#Internal Imports
+import os
+import re
+from datetime import date
+import requests
+import datetime
+
+#Enable the F1 local cache connection
+fastf1.Cache.enable_cache('./FastF1Cache')
+
+#Fetching the driver information
+list_of_schedules = os.listdir("../../csv_data/schedule_data")
+drivers = pd.DataFrame(columns = ["RacingNumber", "BroadcastName", "FullName", "Tla", "Line", "TeamName", "TeamColour", "FirstName", "LastName", ""])
+#print(pd.read_csv("../../csv_data/schedule_data/{}".format(list_of_schedules[0])))
+#Get the initial name information to start the dictionary relationship
+
+df = pd.read_csv("../../csv_data/schedule_data/f1_{}.csv".format("2020"))
+
+#curr_race = df.loc[4]
+#print(curr_race)
+#session = fastf1.get_session(2020, curr_race('Location'), 'R')
+#session.load(weather = False)
+#driver_info = session.drivers
+#print(driver_info)
+
+# def get_yearly_driver_data(driver_df, year):
+#     #Get the driver data for the year
+#     df = pd.read_csv("../../csv_data/schedule_data/{}".format(year))
+#     for race in df.index:
+#         curr_race = df.loc[race]
+#         fastf1.get_session(year, curr_race['Location'], 'R')
+
+
+def all_track_names():
+    track_names = []
+    for year in range(1950, date.today().year + 1):
+        df = fastf1.get_event_schedule(year, include_testing=False).reset_index(drop=True)
+        for event in range(1, len(df)):
+            track_names.append(df.loc[event]['Location'])
+    return track_names
+
+def location_to_map_with_counts():
+    track_names = all_track_names()
+    track_map = {}
+    for track in track_names:
+        if track in track_map:
+            track_map[track] += 1
+        else:
+            track_map[track] = 1
+    return track_map
+
+
+#SOME OF THESE ARE POLE POSITIONS BUT SOME ARE JUST FIRST ON GRID, CHECK FOR ERRORS
+def get_all_winners_poles(Location):
+    winners = {}
+    poles = {}
+    for year in range(1950, date.today().year + 1):
+        df = fastf1.get_event_schedule(year, include_testing=False).reset_index(drop=True)
+        for event in range(1, len(df)):
+            if df.loc[event]['Location'] == Location:
+                race_session = df.loc[event].get_session('R')
+                race_session.load(weather= False, messages = False, telemetry = False, laps = False)
+                if len(race_session.results) == 0:
+                    continue
+                winner_full_name = race_session.results['FirstName'].iloc[0] + " " + race_session.results['LastName'].iloc[0]
+                if year < 1994:
+                    q3_session = df.loc[event].get_session('R')
+                    q3_session.load(weather= False, messages = False, telemetry = False, laps = False)
+                    pole_df = q3_session.results[q3_session.results['GridPosition'] == 1.0]
+                    q3_full_name = pole_df.iloc[0]['FirstName'] + " " + pole_df.iloc[0]['LastName']
+                else:
+                    q3_session = df.loc[event].get_session('Q')
+                    q3_session.load(weather= False, messages = False, telemetry = False, laps = False)
+                    q3_session = q3_session.results.reset_index(drop=True)
+                    if len(q3_session) == 0:
+                        q3_session = df.loc[event].get_session('R')
+                        q3_session.load(weather= False, messages = False, telemetry = False, laps = False)
+                        pole_df = q3_session.results[q3_session.results['GridPosition'] == 1.0]
+                        q3_full_name = pole_df.iloc[0]['FirstName'] + " " + pole_df.iloc[0]['LastName']
+                    else:
+                        q3_full_name = q3_session['FirstName'].loc[0] + " " + q3_session['LastName'].loc[0]
+                winners[year] = winner_full_name
+                poles[year] = q3_full_name
+    return winners, poles
+
+
+
+# tracks_df = pd.DataFrame.from_dict(location_to_map_with_counts(), orient='index')
+# tracks_df.columns = ['Count']
+# tracks_df.sort_values(by='Count', ascending=False, inplace=True)
+# # print(tracks_df)
+# session = fastf1.get_event_schedule(1996, include_testing=False).reset_index(drop=True).loc[6].get_qualifying()
+# session.load(weather= False, messages = False, telemetry = False)
+# #winner_full_name = session.results.iloc[0]['FirstName'] + " " + session.results.iloc[0]['LastName']
+# #print(winner_full_name)
+# print(session.results)
+
+print(get_all_winners_poles("Silverstone"))
