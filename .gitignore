@@ -1,5 +1,5 @@
 #Jupyter checkpoints to ignore
-python_tools/web_scrapper/.ipynb_checkpoints
+python_tools/fastf1_colletor/.ipynb_checkpoints
 
 #Cache for fastf1
 python_tools/fastf1_collector/FastF1Cache

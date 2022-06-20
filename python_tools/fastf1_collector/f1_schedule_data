@@ -1,0 +1,43 @@
+#External Imports
+import pandas as pd
+import numpy as np
+import fastf1
+
+
+#Internal Imports
+import os
+import re
+from datetime import date
+import requests
+import datetime
+
+
+#Setting up the cache for fast API
+fastf1.Cache.enable_cache('./FastF1Cache')
+
+#This block is for getting all the event schedule data - not necessary to run every time, Ill make an update function instead for recent events
+#Clean event schedule
+def get_schedule():
+    general_data = fastf1.get_event_schedule(1950)
+    for year in range(1951, int(datetime.date.today().year)+ 1):
+        general_data = pd.concat([general_data, fastf1.get_event_schedule(year)])
+    general_data = general_data.reset_index(drop = True)
+    general_data['Year'] = general_data['EventDate'].apply(lambda cur: cur.year)
+    return general_data
+
+#get requested year
+def get_year(all_schedule, year):
+    requested = all_schedule.loc[all_schedule['Year'] == year].reset_index(drop = True)
+    return requested
+
+#Saves all the year data, as csvs, into the csv_data directory. Furthermore, does so in the format "f1_(year).csv"
+def save_all_years(all_schedule):
+    for year in all_schedule['Year'].unique():
+        years_schedule = get_year(all_schedule, year)
+        years_schedule.to_csv("../../csv_data/schedule_data/f1_{}.csv".format(year))
+    print("All Files Saved - Success!")
+        
+
+#Get all schedule data
+gen_data = get_schedule()
+save_all_years(gen_data)
