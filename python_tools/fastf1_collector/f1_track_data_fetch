@@ -14,8 +14,8 @@ import requests
 import datetime
 
 #Enable the F1 local cache connection
+os.chdir('./python_tools/fastf1_collector')
 fastf1.Cache.enable_cache('./FastF1Cache')
-
 #Fetching the driver information
 list_of_schedules = os.listdir("../../csv_data/schedule_data")
 drivers = pd.DataFrame(columns = ["RacingNumber", "BroadcastName", "FullName", "Tla", "Line", "TeamName", "TeamColour", "FirstName", "LastName", ""])
@@ -57,7 +57,6 @@ def location_to_map_with_counts():
             track_map[track] = 1
     return track_map
 
-
 #SOME OF THESE ARE POLE POSITIONS BUT SOME ARE JUST FIRST ON GRID, CHECK FOR ERRORS
 def get_all_winners_poles(Location):
     winners = {}
@@ -91,16 +90,78 @@ def get_all_winners_poles(Location):
                 poles[year] = q3_full_name
     return winners, poles
 
+def get_all_events_list(Location):
+    events_list = {}
+    for year in range(1950, date.today().year + 1):
+        df = fastf1.get_event_schedule(year, include_testing=False).reset_index(drop=True)
+        for event in range(1, len(df)):
+            if df.loc[event]['Location'] == Location:
+                if df.loc[event]['OfficialEventName'] == '' or df.loc[event]['OfficialEventName'] == ' ':
+                    events_list[year] = df.loc[event]['EventName']
+                else:
+                    events_list[year] = df.loc[event]['OfficialEventName']
+    return events_list
 
+#Session Type should be R or Q or S, for Race or Quali or Spring
+def get_last_five_fastest_laps(Location, SessionType):
+    fastest_Laps = {}
+    for year in range(date.today().year - 4, date.today().year + 1):
+        df = fastf1.get_event_schedule(year, include_testing=False).reset_index(drop=True)
+        for event in range(1, len(df)):
+            if df.loc[event]['Location'] == Location:
+                if SessionType == 'Q':
+                    session = df.loc[event].get_session('Q')
+                elif SessionType == 'R':
+                    session = df.loc[event].get_session('R')
+                elif SessionType == 'S':
+                    try:
+                        session = fastf1.get_session(year, Location, 'S')
+                    except:
+                        continue
+                else:
+                    return "Please enter SessionType Q, R or S"
+                session.load(weather = False, messages = False, telemetry = False, laps = True)
+                temp = session.laps.pick_fastest()
+                fastest_Laps[year] = [temp['Driver'], temp['LapTime'], temp['Sector1Time'], temp['Sector2Time'], temp['Sector3Time']]
+    return fastest_Laps
+
+def average_pit_time(Location):
+    pitstop_times = []
+    for year in range(date.today().year - 4, date.today().year -3):
+        df = fastf1.get_event_schedule(year, include_testing=False).reset_index(drop=True)
+        for event in range(1, len(df)):
+            if df.loc[event]['Location'] == Location:
+                session = df.loc[event].get_session('R')
+                session.load(weather = False, messages = False, telemetry = False, laps = True)
+                session = session.laps[['Stint', 'PitOutTime', 'PitInTime', 'Driver']]
+                #session = session[type(session["PitOutTime"]) == pd.Timedelta | type(session["PitInTime"]) == pd.Timedelta]
+                #for index, row in session.iterrows():
+                    
+                print(session[type(session["PitOutTime"]) == pd.Timedelta | type(session["PitInTime"]) == pd.Timedelta])
+    avg_time = 0
+    return avg_time
 
 # tracks_df = pd.DataFrame.from_dict(location_to_map_with_counts(), orient='index')
 # tracks_df.columns = ['Count']
 # tracks_df.sort_values(by='Count', ascending=False, inplace=True)
-# # print(tracks_df)
+# print(tracks_df)
+
+# t = fastf1.get_event_schedule(2020).get_event_by_round(1).get_qualifying()
+# t.load()
+# print(t.results)
+
 # session = fastf1.get_event_schedule(1996, include_testing=False).reset_index(drop=True).loc[6].get_qualifying()
 # session.load(weather= False, messages = False, telemetry = False)
 # #winner_full_name = session.results.iloc[0]['FirstName'] + " " + session.results.iloc[0]['LastName']
 # #print(winner_full_name)
 # print(session.results)
 
-print(get_all_winners_poles("Silverstone"))
+
+
+#DATA FRAME STRUCTURE
+# Location | Country | Winners Dict | Poles Dict | Event Name List | Fastest Laps
+
+print(average_pit_time('Silverstone'))
+#print(get_last_five_fastest_laps('Silverstone', 'R'))
+#print(get_all_events_list("Monza"))
+#print(get_all_winners_poles("Silverstone"))
