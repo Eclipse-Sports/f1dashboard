@@ -1,0 +1,20 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Bahrain,Sakhir,,2010-03-14 12:00:00,Bahrain Grand Prix,conventional,Practice 1,2010-03-12,Practice 2,2010-03-12,Practice 3,2010-03-13,Qualifying,2010-03-13,Race,2010-03-14 12:00:00,False,2010
+1,2,Australia,Melbourne,,2010-03-28 06:00:00,Australian Grand Prix,conventional,Practice 1,2010-03-26,Practice 2,2010-03-26,Practice 3,2010-03-27,Qualifying,2010-03-27,Race,2010-03-28 06:00:00,False,2010
+2,3,Malaysia,Kuala Lumpur,,2010-04-04 08:00:00,Malaysian Grand Prix,conventional,Practice 1,2010-04-02,Practice 2,2010-04-02,Practice 3,2010-04-03,Qualifying,2010-04-03,Race,2010-04-04 08:00:00,False,2010
+3,4,China,Shanghai,,2010-04-18 06:00:00,Chinese Grand Prix,conventional,Practice 1,2010-04-16,Practice 2,2010-04-16,Practice 3,2010-04-17,Qualifying,2010-04-17,Race,2010-04-18 06:00:00,False,2010
+4,5,Spain,Montmeló,,2010-05-09 12:00:00,Spanish Grand Prix,conventional,Practice 1,2010-05-07,Practice 2,2010-05-07,Practice 3,2010-05-08,Qualifying,2010-05-08,Race,2010-05-09 12:00:00,False,2010
+5,6,Monaco,Monte-Carlo,,2010-05-16 12:00:00,Monaco Grand Prix,conventional,Practice 1,2010-05-14,Practice 2,2010-05-14,Practice 3,2010-05-15,Qualifying,2010-05-15,Race,2010-05-16 12:00:00,False,2010
+6,7,Turkey,Istanbul,,2010-05-30 11:00:00,Turkish Grand Prix,conventional,Practice 1,2010-05-28,Practice 2,2010-05-28,Practice 3,2010-05-29,Qualifying,2010-05-29,Race,2010-05-30 11:00:00,False,2010
+7,8,Canada,Montreal,,2010-06-13 16:00:00,Canadian Grand Prix,conventional,Practice 1,2010-06-11,Practice 2,2010-06-11,Practice 3,2010-06-12,Qualifying,2010-06-12,Race,2010-06-13 16:00:00,False,2010
+8,9,Spain,Valencia,,2010-06-27 12:00:00,European Grand Prix,conventional,Practice 1,2010-06-25,Practice 2,2010-06-25,Practice 3,2010-06-26,Qualifying,2010-06-26,Race,2010-06-27 12:00:00,False,2010
+9,10,UK,Silverstone,,2010-07-11 12:00:00,British Grand Prix,conventional,Practice 1,2010-07-09,Practice 2,2010-07-09,Practice 3,2010-07-10,Qualifying,2010-07-10,Race,2010-07-11 12:00:00,False,2010
+10,11,Germany,Hockenheim,,2010-07-25 12:00:00,German Grand Prix,conventional,Practice 1,2010-07-23,Practice 2,2010-07-23,Practice 3,2010-07-24,Qualifying,2010-07-24,Race,2010-07-25 12:00:00,False,2010
+11,12,Hungary,Budapest,,2010-08-01 12:00:00,Hungarian Grand Prix,conventional,Practice 1,2010-07-30,Practice 2,2010-07-30,Practice 3,2010-07-31,Qualifying,2010-07-31,Race,2010-08-01 12:00:00,False,2010
+12,13,Belgium,Spa,,2010-08-29 12:00:00,Belgian Grand Prix,conventional,Practice 1,2010-08-27,Practice 2,2010-08-27,Practice 3,2010-08-28,Qualifying,2010-08-28,Race,2010-08-29 12:00:00,False,2010
+13,14,Italy,Monza,,2010-09-12 12:00:00,Italian Grand Prix,conventional,Practice 1,2010-09-10,Practice 2,2010-09-10,Practice 3,2010-09-11,Qualifying,2010-09-11,Race,2010-09-12 12:00:00,False,2010
+14,15,Singapore,Marina Bay,,2010-09-26 12:00:00,Singapore Grand Prix,conventional,Practice 1,2010-09-24,Practice 2,2010-09-24,Practice 3,2010-09-25,Qualifying,2010-09-25,Race,2010-09-26 12:00:00,False,2010
+15,16,Japan,Suzuka,,2010-10-10 06:00:00,Japanese Grand Prix,conventional,Practice 1,2010-10-08,Practice 2,2010-10-08,Practice 3,2010-10-09,Qualifying,2010-10-09,Race,2010-10-10 06:00:00,False,2010
+16,17,Korea,Yeongam County,,2010-10-24 05:00:00,Korean Grand Prix,conventional,Practice 1,2010-10-22,Practice 2,2010-10-22,Practice 3,2010-10-23,Qualifying,2010-10-23,Race,2010-10-24 05:00:00,False,2010
+17,18,Brazil,São Paulo,,2010-11-07 16:00:00,Brazilian Grand Prix,conventional,Practice 1,2010-11-05,Practice 2,2010-11-05,Practice 3,2010-11-06,Qualifying,2010-11-06,Race,2010-11-07 16:00:00,False,2010
+18,19,UAE,Abu Dhabi,,2010-11-14 13:00:00,Abu Dhabi Grand Prix,conventional,Practice 1,2010-11-12,Practice 2,2010-11-12,Practice 3,2010-11-13,Qualifying,2010-11-13,Race,2010-11-14 13:00:00,False,2010

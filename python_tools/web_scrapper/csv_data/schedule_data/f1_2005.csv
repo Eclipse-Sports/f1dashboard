@@ -1,0 +1,20 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Australia,Melbourne,,2005-03-06 14:00:00,Australian Grand Prix,conventional,Practice 1,2005-03-04,Practice 2,2005-03-04,Practice 3,2005-03-05,Qualifying,2005-03-05,Race,2005-03-06 14:00:00,False,2005
+1,2,Malaysia,Kuala Lumpur,,2005-03-20 15:00:00,Malaysian Grand Prix,conventional,Practice 1,2005-03-18,Practice 2,2005-03-18,Practice 3,2005-03-19,Qualifying,2005-03-19,Race,2005-03-20 15:00:00,False,2005
+2,3,Bahrain,Sakhir,,2005-04-03 14:30:00,Bahrain Grand Prix,conventional,Practice 1,2005-04-01,Practice 2,2005-04-01,Practice 3,2005-04-02,Qualifying,2005-04-02,Race,2005-04-03 14:30:00,False,2005
+3,4,Italy,Imola,,2005-04-24 14:00:00,San Marino Grand Prix,conventional,Practice 1,2005-04-22,Practice 2,2005-04-22,Practice 3,2005-04-23,Qualifying,2005-04-23,Race,2005-04-24 14:00:00,False,2005
+4,5,Spain,Montmeló,,2005-05-08 14:00:00,Spanish Grand Prix,conventional,Practice 1,2005-05-06,Practice 2,2005-05-06,Practice 3,2005-05-07,Qualifying,2005-05-07,Race,2005-05-08 14:00:00,False,2005
+5,6,Monaco,Monte-Carlo,,2005-05-22 14:00:00,Monaco Grand Prix,conventional,Practice 1,2005-05-20,Practice 2,2005-05-20,Practice 3,2005-05-21,Qualifying,2005-05-21,Race,2005-05-22 14:00:00,False,2005
+6,7,Germany,Nürburg,,2005-05-29 14:00:00,European Grand Prix,conventional,Practice 1,2005-05-27,Practice 2,2005-05-27,Practice 3,2005-05-28,Qualifying,2005-05-28,Race,2005-05-29 14:00:00,False,2005
+7,8,Canada,Montreal,,2005-06-12 13:00:00,Canadian Grand Prix,conventional,Practice 1,2005-06-10,Practice 2,2005-06-10,Practice 3,2005-06-11,Qualifying,2005-06-11,Race,2005-06-12 13:00:00,False,2005
+8,9,USA,Indianapolis,,2005-06-19 14:00:00,United States Grand Prix,conventional,Practice 1,2005-06-17,Practice 2,2005-06-17,Practice 3,2005-06-18,Qualifying,2005-06-18,Race,2005-06-19 14:00:00,False,2005
+9,10,France,Magny Cours,,2005-07-03 14:00:00,French Grand Prix,conventional,Practice 1,2005-07-01,Practice 2,2005-07-01,Practice 3,2005-07-02,Qualifying,2005-07-02,Race,2005-07-03 14:00:00,False,2005
+10,11,UK,Silverstone,,2005-07-10 14:00:00,British Grand Prix,conventional,Practice 1,2005-07-08,Practice 2,2005-07-08,Practice 3,2005-07-09,Qualifying,2005-07-09,Race,2005-07-10 14:00:00,False,2005
+11,12,Germany,Hockenheim,,2005-07-24 14:00:00,German Grand Prix,conventional,Practice 1,2005-07-22,Practice 2,2005-07-22,Practice 3,2005-07-23,Qualifying,2005-07-23,Race,2005-07-24 14:00:00,False,2005
+12,13,Hungary,Budapest,,2005-07-31 14:00:00,Hungarian Grand Prix,conventional,Practice 1,2005-07-29,Practice 2,2005-07-29,Practice 3,2005-07-30,Qualifying,2005-07-30,Race,2005-07-31 14:00:00,False,2005
+13,14,Turkey,Istanbul,,2005-08-21 15:00:00,Turkish Grand Prix,conventional,Practice 1,2005-08-19,Practice 2,2005-08-19,Practice 3,2005-08-20,Qualifying,2005-08-20,Race,2005-08-21 15:00:00,False,2005
+14,15,Italy,Monza,,2005-09-04 14:00:00,Italian Grand Prix,conventional,Practice 1,2005-09-02,Practice 2,2005-09-02,Practice 3,2005-09-03,Qualifying,2005-09-03,Race,2005-09-04 14:00:00,False,2005
+15,16,Belgium,Spa,,2005-09-11 14:00:00,Belgian Grand Prix,conventional,Practice 1,2005-09-09,Practice 2,2005-09-09,Practice 3,2005-09-10,Qualifying,2005-09-10,Race,2005-09-11 14:00:00,False,2005
+16,17,Brazil,São Paulo,,2005-09-25 14:00:00,Brazilian Grand Prix,conventional,Practice 1,2005-09-23,Practice 2,2005-09-23,Practice 3,2005-09-24,Qualifying,2005-09-24,Race,2005-09-25 14:00:00,False,2005
+17,18,Japan,Suzuka,,2005-10-09 14:00:00,Japanese Grand Prix,conventional,Practice 1,2005-10-07,Practice 2,2005-10-07,Practice 3,2005-10-08,Qualifying,2005-10-08,Race,2005-10-09 14:00:00,False,2005
+18,19,China,Shanghai,,2005-10-16 14:00:00,Chinese Grand Prix,conventional,Practice 1,2005-10-14,Practice 2,2005-10-14,Practice 3,2005-10-15,Qualifying,2005-10-15,Race,2005-10-16 14:00:00,False,2005

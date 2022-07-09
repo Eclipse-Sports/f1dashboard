@@ -1,0 +1,9 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Monaco,Monte-Carlo,,1961-05-14,Monaco Grand Prix,conventional,Practice 1,1961-05-12,Practice 2,1961-05-12,Practice 3,1961-05-13,Qualifying,1961-05-13,Race,1961-05-14,False,1961
+1,2,Netherlands,Zandvoort,,1961-05-22,Dutch Grand Prix,conventional,Practice 1,1961-05-20,Practice 2,1961-05-20,Practice 3,1961-05-21,Qualifying,1961-05-21,Race,1961-05-22,False,1961
+2,3,Belgium,Spa,,1961-06-18,Belgian Grand Prix,conventional,Practice 1,1961-06-16,Practice 2,1961-06-16,Practice 3,1961-06-17,Qualifying,1961-06-17,Race,1961-06-18,False,1961
+3,4,France,Reims,,1961-07-02,French Grand Prix,conventional,Practice 1,1961-06-30,Practice 2,1961-06-30,Practice 3,1961-07-01,Qualifying,1961-07-01,Race,1961-07-02,False,1961
+4,5,UK,Liverpool,,1961-07-15,British Grand Prix,conventional,Practice 1,1961-07-13,Practice 2,1961-07-13,Practice 3,1961-07-14,Qualifying,1961-07-14,Race,1961-07-15,False,1961
+5,6,Germany,Nürburg,,1961-08-06,German Grand Prix,conventional,Practice 1,1961-08-04,Practice 2,1961-08-04,Practice 3,1961-08-05,Qualifying,1961-08-05,Race,1961-08-06,False,1961
+6,7,Italy,Monza,,1961-09-10,Italian Grand Prix,conventional,Practice 1,1961-09-08,Practice 2,1961-09-08,Practice 3,1961-09-09,Qualifying,1961-09-09,Race,1961-09-10,False,1961
+7,8,USA,New York State,,1961-10-08,United States Grand Prix,conventional,Practice 1,1961-10-06,Practice 2,1961-10-06,Practice 3,1961-10-07,Qualifying,1961-10-07,Race,1961-10-08,False,1961

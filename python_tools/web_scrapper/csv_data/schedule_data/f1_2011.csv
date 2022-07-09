@@ -1,0 +1,20 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Australia,Melbourne,,2011-03-27 06:00:00,Australian Grand Prix,conventional,Practice 1,2011-03-25,Practice 2,2011-03-25,Practice 3,2011-03-26,Qualifying,2011-03-26,Race,2011-03-27 06:00:00,False,2011
+1,2,Malaysia,Kuala Lumpur,,2011-04-10 08:00:00,Malaysian Grand Prix,conventional,Practice 1,2011-04-08,Practice 2,2011-04-08,Practice 3,2011-04-09,Qualifying,2011-04-09,Race,2011-04-10 08:00:00,False,2011
+2,3,China,Shanghai,,2011-04-17 07:00:00,Chinese Grand Prix,conventional,Practice 1,2011-04-15,Practice 2,2011-04-15,Practice 3,2011-04-16,Qualifying,2011-04-16,Race,2011-04-17 07:00:00,False,2011
+3,4,Turkey,Istanbul,,2011-05-08 12:00:00,Turkish Grand Prix,conventional,Practice 1,2011-05-06,Practice 2,2011-05-06,Practice 3,2011-05-07,Qualifying,2011-05-07,Race,2011-05-08 12:00:00,False,2011
+4,5,Spain,Montmeló,,2011-05-22 12:00:00,Spanish Grand Prix,conventional,Practice 1,2011-05-20,Practice 2,2011-05-20,Practice 3,2011-05-21,Qualifying,2011-05-21,Race,2011-05-22 12:00:00,False,2011
+5,6,Monaco,Monte-Carlo,,2011-05-29 12:00:00,Monaco Grand Prix,conventional,Practice 1,2011-05-27,Practice 2,2011-05-27,Practice 3,2011-05-28,Qualifying,2011-05-28,Race,2011-05-29 12:00:00,False,2011
+6,7,Canada,Montreal,,2011-06-12 17:00:00,Canadian Grand Prix,conventional,Practice 1,2011-06-10,Practice 2,2011-06-10,Practice 3,2011-06-11,Qualifying,2011-06-11,Race,2011-06-12 17:00:00,False,2011
+7,8,Spain,Valencia,,2011-06-26 12:00:00,European Grand Prix,conventional,Practice 1,2011-06-24,Practice 2,2011-06-24,Practice 3,2011-06-25,Qualifying,2011-06-25,Race,2011-06-26 12:00:00,False,2011
+8,9,UK,Silverstone,,2011-07-10 12:00:00,British Grand Prix,conventional,Practice 1,2011-07-08,Practice 2,2011-07-08,Practice 3,2011-07-09,Qualifying,2011-07-09,Race,2011-07-10 12:00:00,False,2011
+9,10,Germany,Nürburg,,2011-07-24 12:00:00,German Grand Prix,conventional,Practice 1,2011-07-22,Practice 2,2011-07-22,Practice 3,2011-07-23,Qualifying,2011-07-23,Race,2011-07-24 12:00:00,False,2011
+10,11,Hungary,Budapest,,2011-07-31 12:00:00,Hungarian Grand Prix,conventional,Practice 1,2011-07-29,Practice 2,2011-07-29,Practice 3,2011-07-30,Qualifying,2011-07-30,Race,2011-07-31 12:00:00,False,2011
+11,12,Belgium,Spa,,2011-08-28 12:00:00,Belgian Grand Prix,conventional,Practice 1,2011-08-26,Practice 2,2011-08-26,Practice 3,2011-08-27,Qualifying,2011-08-27,Race,2011-08-28 12:00:00,False,2011
+12,13,Italy,Monza,,2011-09-11 12:00:00,Italian Grand Prix,conventional,Practice 1,2011-09-09,Practice 2,2011-09-09,Practice 3,2011-09-10,Qualifying,2011-09-10,Race,2011-09-11 12:00:00,False,2011
+13,14,Singapore,Marina Bay,,2011-09-25 12:00:00,Singapore Grand Prix,conventional,Practice 1,2011-09-23,Practice 2,2011-09-23,Practice 3,2011-09-24,Qualifying,2011-09-24,Race,2011-09-25 12:00:00,False,2011
+14,15,Japan,Suzuka,,2011-10-09 06:00:00,Japanese Grand Prix,conventional,Practice 1,2011-10-07,Practice 2,2011-10-07,Practice 3,2011-10-08,Qualifying,2011-10-08,Race,2011-10-09 06:00:00,False,2011
+15,16,Korea,Yeongam County,,2011-10-16 06:00:00,Korean Grand Prix,conventional,Practice 1,2011-10-14,Practice 2,2011-10-14,Practice 3,2011-10-15,Qualifying,2011-10-15,Race,2011-10-16 06:00:00,False,2011
+16,17,India,Uttar Pradesh,,2011-10-30 09:30:00,Indian Grand Prix,conventional,Practice 1,2011-10-28,Practice 2,2011-10-28,Practice 3,2011-10-29,Qualifying,2011-10-29,Race,2011-10-30 09:30:00,False,2011
+17,18,UAE,Abu Dhabi,,2011-11-13 13:00:00,Abu Dhabi Grand Prix,conventional,Practice 1,2011-11-11,Practice 2,2011-11-11,Practice 3,2011-11-12,Qualifying,2011-11-12,Race,2011-11-13 13:00:00,False,2011
+18,19,Brazil,São Paulo,,2011-11-27 16:00:00,Brazilian Grand Prix,conventional,Practice 1,2011-11-25,Practice 2,2011-11-25,Practice 3,2011-11-26,Qualifying,2011-11-26,Race,2011-11-27 16:00:00,False,2011

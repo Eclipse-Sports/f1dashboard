@@ -1,0 +1,18 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Australia,Melbourne,,2002-03-03,Australian Grand Prix,conventional,Practice 1,2002-03-01,Practice 2,2002-03-01,Practice 3,2002-03-02,Qualifying,2002-03-02,Race,2002-03-03,False,2002
+1,2,Malaysia,Kuala Lumpur,,2002-03-17,Malaysian Grand Prix,conventional,Practice 1,2002-03-15,Practice 2,2002-03-15,Practice 3,2002-03-16,Qualifying,2002-03-16,Race,2002-03-17,False,2002
+2,3,Brazil,São Paulo,,2002-03-31,Brazilian Grand Prix,conventional,Practice 1,2002-03-29,Practice 2,2002-03-29,Practice 3,2002-03-30,Qualifying,2002-03-30,Race,2002-03-31,False,2002
+3,4,Italy,Imola,,2002-04-14,San Marino Grand Prix,conventional,Practice 1,2002-04-12,Practice 2,2002-04-12,Practice 3,2002-04-13,Qualifying,2002-04-13,Race,2002-04-14,False,2002
+4,5,Spain,Montmeló,,2002-04-28,Spanish Grand Prix,conventional,Practice 1,2002-04-26,Practice 2,2002-04-26,Practice 3,2002-04-27,Qualifying,2002-04-27,Race,2002-04-28,False,2002
+5,6,Austria,Spielberg,,2002-05-12,Austrian Grand Prix,conventional,Practice 1,2002-05-10,Practice 2,2002-05-10,Practice 3,2002-05-11,Qualifying,2002-05-11,Race,2002-05-12,False,2002
+6,7,Monaco,Monte-Carlo,,2002-05-26,Monaco Grand Prix,conventional,Practice 1,2002-05-24,Practice 2,2002-05-24,Practice 3,2002-05-25,Qualifying,2002-05-25,Race,2002-05-26,False,2002
+7,8,Canada,Montreal,,2002-06-09,Canadian Grand Prix,conventional,Practice 1,2002-06-07,Practice 2,2002-06-07,Practice 3,2002-06-08,Qualifying,2002-06-08,Race,2002-06-09,False,2002
+8,9,Germany,Nürburg,,2002-06-23,European Grand Prix,conventional,Practice 1,2002-06-21,Practice 2,2002-06-21,Practice 3,2002-06-22,Qualifying,2002-06-22,Race,2002-06-23,False,2002
+9,10,UK,Silverstone,,2002-07-07,British Grand Prix,conventional,Practice 1,2002-07-05,Practice 2,2002-07-05,Practice 3,2002-07-06,Qualifying,2002-07-06,Race,2002-07-07,False,2002
+10,11,France,Magny Cours,,2002-07-21,French Grand Prix,conventional,Practice 1,2002-07-19,Practice 2,2002-07-19,Practice 3,2002-07-20,Qualifying,2002-07-20,Race,2002-07-21,False,2002
+11,12,Germany,Hockenheim,,2002-07-28,German Grand Prix,conventional,Practice 1,2002-07-26,Practice 2,2002-07-26,Practice 3,2002-07-27,Qualifying,2002-07-27,Race,2002-07-28,False,2002
+12,13,Hungary,Budapest,,2002-08-18,Hungarian Grand Prix,conventional,Practice 1,2002-08-16,Practice 2,2002-08-16,Practice 3,2002-08-17,Qualifying,2002-08-17,Race,2002-08-18,False,2002
+13,14,Belgium,Spa,,2002-09-01,Belgian Grand Prix,conventional,Practice 1,2002-08-30,Practice 2,2002-08-30,Practice 3,2002-08-31,Qualifying,2002-08-31,Race,2002-09-01,False,2002
+14,15,Italy,Monza,,2002-09-15,Italian Grand Prix,conventional,Practice 1,2002-09-13,Practice 2,2002-09-13,Practice 3,2002-09-14,Qualifying,2002-09-14,Race,2002-09-15,False,2002
+15,16,USA,Indianapolis,,2002-09-29,United States Grand Prix,conventional,Practice 1,2002-09-27,Practice 2,2002-09-27,Practice 3,2002-09-28,Qualifying,2002-09-28,Race,2002-09-29,False,2002
+16,17,Japan,Suzuka,,2002-10-13,Japanese Grand Prix,conventional,Practice 1,2002-10-11,Practice 2,2002-10-11,Practice 3,2002-10-12,Qualifying,2002-10-12,Race,2002-10-13,False,2002

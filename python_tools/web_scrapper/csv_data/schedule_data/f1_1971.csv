@@ -1,0 +1,12 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,South Africa,Midrand,,1971-03-06,South African Grand Prix,conventional,Practice 1,1971-03-04,Practice 2,1971-03-04,Practice 3,1971-03-05,Qualifying,1971-03-05,Race,1971-03-06,False,1971
+1,2,Spain,Barcelona,,1971-04-18,Spanish Grand Prix,conventional,Practice 1,1971-04-16,Practice 2,1971-04-16,Practice 3,1971-04-17,Qualifying,1971-04-17,Race,1971-04-18,False,1971
+2,3,Monaco,Monte-Carlo,,1971-05-23,Monaco Grand Prix,conventional,Practice 1,1971-05-21,Practice 2,1971-05-21,Practice 3,1971-05-22,Qualifying,1971-05-22,Race,1971-05-23,False,1971
+3,4,Netherlands,Zandvoort,,1971-06-20,Dutch Grand Prix,conventional,Practice 1,1971-06-18,Practice 2,1971-06-18,Practice 3,1971-06-19,Qualifying,1971-06-19,Race,1971-06-20,False,1971
+4,5,France,Le Castellet,,1971-07-04,French Grand Prix,conventional,Practice 1,1971-07-02,Practice 2,1971-07-02,Practice 3,1971-07-03,Qualifying,1971-07-03,Race,1971-07-04,False,1971
+5,6,UK,Silverstone,,1971-07-17,British Grand Prix,conventional,Practice 1,1971-07-15,Practice 2,1971-07-15,Practice 3,1971-07-16,Qualifying,1971-07-16,Race,1971-07-17,False,1971
+6,7,Germany,Nürburg,,1971-08-01,German Grand Prix,conventional,Practice 1,1971-07-30,Practice 2,1971-07-30,Practice 3,1971-07-31,Qualifying,1971-07-31,Race,1971-08-01,False,1971
+7,8,Austria,Spielberg,,1971-08-15,Austrian Grand Prix,conventional,Practice 1,1971-08-13,Practice 2,1971-08-13,Practice 3,1971-08-14,Qualifying,1971-08-14,Race,1971-08-15,False,1971
+8,9,Italy,Monza,,1971-09-05,Italian Grand Prix,conventional,Practice 1,1971-09-03,Practice 2,1971-09-03,Practice 3,1971-09-04,Qualifying,1971-09-04,Race,1971-09-05,False,1971
+9,10,Canada,Ontario,,1971-09-19,Canadian Grand Prix,conventional,Practice 1,1971-09-17,Practice 2,1971-09-17,Practice 3,1971-09-18,Qualifying,1971-09-18,Race,1971-09-19,False,1971
+10,11,USA,New York State,,1971-10-03,United States Grand Prix,conventional,Practice 1,1971-10-01,Practice 2,1971-10-01,Practice 3,1971-10-02,Qualifying,1971-10-02,Race,1971-10-03,False,1971

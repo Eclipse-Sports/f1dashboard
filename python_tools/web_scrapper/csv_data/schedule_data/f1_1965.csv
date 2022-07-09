@@ -1,0 +1,11 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,South Africa,Eastern Cape Province,,1965-01-01,South African Grand Prix,conventional,Practice 1,1964-12-30,Practice 2,1964-12-30,Practice 3,1964-12-31,Qualifying,1964-12-31,Race,1965-01-01,False,1965
+1,2,Monaco,Monte-Carlo,,1965-05-30,Monaco Grand Prix,conventional,Practice 1,1965-05-28,Practice 2,1965-05-28,Practice 3,1965-05-29,Qualifying,1965-05-29,Race,1965-05-30,False,1965
+2,3,Belgium,Spa,,1965-06-13,Belgian Grand Prix,conventional,Practice 1,1965-06-11,Practice 2,1965-06-11,Practice 3,1965-06-12,Qualifying,1965-06-12,Race,1965-06-13,False,1965
+3,4,France,Clermont-Ferrand,,1965-06-27,French Grand Prix,conventional,Practice 1,1965-06-25,Practice 2,1965-06-25,Practice 3,1965-06-26,Qualifying,1965-06-26,Race,1965-06-27,False,1965
+4,5,UK,Silverstone,,1965-07-10,British Grand Prix,conventional,Practice 1,1965-07-08,Practice 2,1965-07-08,Practice 3,1965-07-09,Qualifying,1965-07-09,Race,1965-07-10,False,1965
+5,6,Netherlands,Zandvoort,,1965-07-18,Dutch Grand Prix,conventional,Practice 1,1965-07-16,Practice 2,1965-07-16,Practice 3,1965-07-17,Qualifying,1965-07-17,Race,1965-07-18,False,1965
+6,7,Germany,Nürburg,,1965-08-01,German Grand Prix,conventional,Practice 1,1965-07-30,Practice 2,1965-07-30,Practice 3,1965-07-31,Qualifying,1965-07-31,Race,1965-08-01,False,1965
+7,8,Italy,Monza,,1965-09-12,Italian Grand Prix,conventional,Practice 1,1965-09-10,Practice 2,1965-09-10,Practice 3,1965-09-11,Qualifying,1965-09-11,Race,1965-09-12,False,1965
+8,9,USA,New York State,,1965-10-03,United States Grand Prix,conventional,Practice 1,1965-10-01,Practice 2,1965-10-01,Practice 3,1965-10-02,Qualifying,1965-10-02,Race,1965-10-03,False,1965
+9,10,Mexico,Mexico City,,1965-10-24,Mexican Grand Prix,conventional,Practice 1,1965-10-22,Practice 2,1965-10-22,Practice 3,1965-10-23,Qualifying,1965-10-23,Race,1965-10-24,False,1965

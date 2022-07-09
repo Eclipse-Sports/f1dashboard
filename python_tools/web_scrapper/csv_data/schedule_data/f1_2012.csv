@@ -1,0 +1,21 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Australia,Melbourne,,2012-03-18 06:00:00,Australian Grand Prix,conventional,Practice 1,2012-03-16,Practice 2,2012-03-16,Practice 3,2012-03-17,Qualifying,2012-03-17,Race,2012-03-18 06:00:00,False,2012
+1,2,Malaysia,Kuala Lumpur,,2012-03-25 08:00:00,Malaysian Grand Prix,conventional,Practice 1,2012-03-23,Practice 2,2012-03-23,Practice 3,2012-03-24,Qualifying,2012-03-24,Race,2012-03-25 08:00:00,False,2012
+2,3,China,Shanghai,,2012-04-15 07:00:00,Chinese Grand Prix,conventional,Practice 1,2012-04-13,Practice 2,2012-04-13,Practice 3,2012-04-14,Qualifying,2012-04-14,Race,2012-04-15 07:00:00,False,2012
+3,4,Bahrain,Sakhir,,2012-04-22 12:00:00,Bahrain Grand Prix,conventional,Practice 1,2012-04-20,Practice 2,2012-04-20,Practice 3,2012-04-21,Qualifying,2012-04-21,Race,2012-04-22 12:00:00,False,2012
+4,5,Spain,Montmeló,,2012-05-13 12:00:00,Spanish Grand Prix,conventional,Practice 1,2012-05-11,Practice 2,2012-05-11,Practice 3,2012-05-12,Qualifying,2012-05-12,Race,2012-05-13 12:00:00,False,2012
+5,6,Monaco,Monte-Carlo,,2012-05-27 12:00:00,Monaco Grand Prix,conventional,Practice 1,2012-05-25,Practice 2,2012-05-25,Practice 3,2012-05-26,Qualifying,2012-05-26,Race,2012-05-27 12:00:00,False,2012
+6,7,Canada,Montreal,,2012-06-10 18:00:00,Canadian Grand Prix,conventional,Practice 1,2012-06-08,Practice 2,2012-06-08,Practice 3,2012-06-09,Qualifying,2012-06-09,Race,2012-06-10 18:00:00,False,2012
+7,8,Spain,Valencia,,2012-06-24 12:00:00,European Grand Prix,conventional,Practice 1,2012-06-22,Practice 2,2012-06-22,Practice 3,2012-06-23,Qualifying,2012-06-23,Race,2012-06-24 12:00:00,False,2012
+8,9,UK,Silverstone,,2012-07-08 12:00:00,British Grand Prix,conventional,Practice 1,2012-07-06,Practice 2,2012-07-06,Practice 3,2012-07-07,Qualifying,2012-07-07,Race,2012-07-08 12:00:00,False,2012
+9,10,Germany,Hockenheim,,2012-07-22 12:00:00,German Grand Prix,conventional,Practice 1,2012-07-20,Practice 2,2012-07-20,Practice 3,2012-07-21,Qualifying,2012-07-21,Race,2012-07-22 12:00:00,False,2012
+10,11,Hungary,Budapest,,2012-07-29 12:00:00,Hungarian Grand Prix,conventional,Practice 1,2012-07-27,Practice 2,2012-07-27,Practice 3,2012-07-28,Qualifying,2012-07-28,Race,2012-07-29 12:00:00,False,2012
+11,12,Belgium,Spa,,2012-09-02 12:00:00,Belgian Grand Prix,conventional,Practice 1,2012-08-31,Practice 2,2012-08-31,Practice 3,2012-09-01,Qualifying,2012-09-01,Race,2012-09-02 12:00:00,False,2012
+12,13,Italy,Monza,,2012-09-09 12:00:00,Italian Grand Prix,conventional,Practice 1,2012-09-07,Practice 2,2012-09-07,Practice 3,2012-09-08,Qualifying,2012-09-08,Race,2012-09-09 12:00:00,False,2012
+13,14,Singapore,Marina Bay,,2012-09-23 12:00:00,Singapore Grand Prix,conventional,Practice 1,2012-09-21,Practice 2,2012-09-21,Practice 3,2012-09-22,Qualifying,2012-09-22,Race,2012-09-23 12:00:00,False,2012
+14,15,Japan,Suzuka,,2012-10-07 06:00:00,Japanese Grand Prix,conventional,Practice 1,2012-10-05,Practice 2,2012-10-05,Practice 3,2012-10-06,Qualifying,2012-10-06,Race,2012-10-07 06:00:00,False,2012
+15,16,Korea,Yeongam County,,2012-10-14 06:00:00,Korean Grand Prix,conventional,Practice 1,2012-10-12,Practice 2,2012-10-12,Practice 3,2012-10-13,Qualifying,2012-10-13,Race,2012-10-14 06:00:00,False,2012
+16,17,India,Uttar Pradesh,,2012-10-28 09:30:00,Indian Grand Prix,conventional,Practice 1,2012-10-26,Practice 2,2012-10-26,Practice 3,2012-10-27,Qualifying,2012-10-27,Race,2012-10-28 09:30:00,False,2012
+17,18,UAE,Abu Dhabi,,2012-11-04 13:00:00,Abu Dhabi Grand Prix,conventional,Practice 1,2012-11-02,Practice 2,2012-11-02,Practice 3,2012-11-03,Qualifying,2012-11-03,Race,2012-11-04 13:00:00,False,2012
+18,19,USA,Austin,,2012-11-18 19:00:00,United States Grand Prix,conventional,Practice 1,2012-11-16,Practice 2,2012-11-16,Practice 3,2012-11-17,Qualifying,2012-11-17,Race,2012-11-18 19:00:00,False,2012
+19,20,Brazil,São Paulo,,2012-11-25 16:00:00,Brazilian Grand Prix,conventional,Practice 1,2012-11-23,Practice 2,2012-11-23,Practice 3,2012-11-24,Qualifying,2012-11-24,Race,2012-11-25 16:00:00,False,2012

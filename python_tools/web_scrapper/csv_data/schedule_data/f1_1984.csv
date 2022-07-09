@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Brazil,Rio de Janeiro,,1984-03-25,Brazilian Grand Prix,conventional,Practice 1,1984-03-23,Practice 2,1984-03-23,Practice 3,1984-03-24,Qualifying,1984-03-24,Race,1984-03-25,False,1984
+1,2,South Africa,Midrand,,1984-04-07,South African Grand Prix,conventional,Practice 1,1984-04-05,Practice 2,1984-04-05,Practice 3,1984-04-06,Qualifying,1984-04-06,Race,1984-04-07,False,1984
+2,3,Belgium,Heusden-Zolder,,1984-04-29,Belgian Grand Prix,conventional,Practice 1,1984-04-27,Practice 2,1984-04-27,Practice 3,1984-04-28,Qualifying,1984-04-28,Race,1984-04-29,False,1984
+3,4,Italy,Imola,,1984-05-06,San Marino Grand Prix,conventional,Practice 1,1984-05-04,Practice 2,1984-05-04,Practice 3,1984-05-05,Qualifying,1984-05-05,Race,1984-05-06,False,1984
+4,5,France,Dijon,,1984-05-20,French Grand Prix,conventional,Practice 1,1984-05-18,Practice 2,1984-05-18,Practice 3,1984-05-19,Qualifying,1984-05-19,Race,1984-05-20,False,1984
+5,6,Monaco,Monte-Carlo,,1984-06-03,Monaco Grand Prix,conventional,Practice 1,1984-06-01,Practice 2,1984-06-01,Practice 3,1984-06-02,Qualifying,1984-06-02,Race,1984-06-03,False,1984
+6,7,Canada,Montreal,,1984-06-17,Canadian Grand Prix,conventional,Practice 1,1984-06-15,Practice 2,1984-06-15,Practice 3,1984-06-16,Qualifying,1984-06-16,Race,1984-06-17,False,1984
+7,8,USA,Detroit,,1984-06-24,Detroit Grand Prix,conventional,Practice 1,1984-06-22,Practice 2,1984-06-22,Practice 3,1984-06-23,Qualifying,1984-06-23,Race,1984-06-24,False,1984
+8,9,USA,Dallas,,1984-07-08,Dallas Grand Prix,conventional,Practice 1,1984-07-06,Practice 2,1984-07-06,Practice 3,1984-07-07,Qualifying,1984-07-07,Race,1984-07-08,False,1984
+9,10,UK,Kent,,1984-07-22,British Grand Prix,conventional,Practice 1,1984-07-20,Practice 2,1984-07-20,Practice 3,1984-07-21,Qualifying,1984-07-21,Race,1984-07-22,False,1984
+10,11,Germany,Hockenheim,,1984-08-05,German Grand Prix,conventional,Practice 1,1984-08-03,Practice 2,1984-08-03,Practice 3,1984-08-04,Qualifying,1984-08-04,Race,1984-08-05,False,1984
+11,12,Austria,Spielberg,,1984-08-19,Austrian Grand Prix,conventional,Practice 1,1984-08-17,Practice 2,1984-08-17,Practice 3,1984-08-18,Qualifying,1984-08-18,Race,1984-08-19,False,1984
+12,13,Netherlands,Zandvoort,,1984-08-26,Dutch Grand Prix,conventional,Practice 1,1984-08-24,Practice 2,1984-08-24,Practice 3,1984-08-25,Qualifying,1984-08-25,Race,1984-08-26,False,1984
+13,14,Italy,Monza,,1984-09-09,Italian Grand Prix,conventional,Practice 1,1984-09-07,Practice 2,1984-09-07,Practice 3,1984-09-08,Qualifying,1984-09-08,Race,1984-09-09,False,1984
+14,15,Germany,Nürburg,,1984-10-07,European Grand Prix,conventional,Practice 1,1984-10-05,Practice 2,1984-10-05,Practice 3,1984-10-06,Qualifying,1984-10-06,Race,1984-10-07,False,1984
+15,16,Portugal,Estoril,,1984-10-21,Portuguese Grand Prix,conventional,Practice 1,1984-10-19,Practice 2,1984-10-19,Practice 3,1984-10-20,Qualifying,1984-10-20,Race,1984-10-21,False,1984
