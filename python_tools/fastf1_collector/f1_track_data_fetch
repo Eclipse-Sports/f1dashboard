@@ -59,7 +59,6 @@ def location_to_map_with_counts():
 
 #SOME OF THESE ARE POLE POSITIONS BUT SOME ARE JUST FIRST ON GRID, CHECK FOR ERRORS
 def get_all_winners_poles(Location):
-    Location = make_capital(Location)
     winners = {}
     poles = {}
     for year in range(1950, date.today().year + 1):
