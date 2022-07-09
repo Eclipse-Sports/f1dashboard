@@ -1,0 +1,10 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1953-01-18,Argentine Grand Prix,conventional,Practice 1,1953-01-16,Practice 2,1953-01-16,Practice 3,1953-01-17,Qualifying,1953-01-17,Race,1953-01-18,False,1953
+1,2,USA,Indianapolis,,1953-05-30,Indianapolis 500,conventional,Practice 1,1953-05-28,Practice 2,1953-05-28,Practice 3,1953-05-29,Qualifying,1953-05-29,Race,1953-05-30,False,1953
+2,3,Netherlands,Zandvoort,,1953-06-07,Dutch Grand Prix,conventional,Practice 1,1953-06-05,Practice 2,1953-06-05,Practice 3,1953-06-06,Qualifying,1953-06-06,Race,1953-06-07,False,1953
+3,4,Belgium,Spa,,1953-06-21,Belgian Grand Prix,conventional,Practice 1,1953-06-19,Practice 2,1953-06-19,Practice 3,1953-06-20,Qualifying,1953-06-20,Race,1953-06-21,False,1953
+4,5,France,Reims,,1953-07-05,French Grand Prix,conventional,Practice 1,1953-07-03,Practice 2,1953-07-03,Practice 3,1953-07-04,Qualifying,1953-07-04,Race,1953-07-05,False,1953
+5,6,UK,Silverstone,,1953-07-18,British Grand Prix,conventional,Practice 1,1953-07-16,Practice 2,1953-07-16,Practice 3,1953-07-17,Qualifying,1953-07-17,Race,1953-07-18,False,1953
+6,7,Germany,Nürburg,,1953-08-02,German Grand Prix,conventional,Practice 1,1953-07-31,Practice 2,1953-07-31,Practice 3,1953-08-01,Qualifying,1953-08-01,Race,1953-08-02,False,1953
+7,8,Switzerland,Bern,,1953-08-23,Swiss Grand Prix,conventional,Practice 1,1953-08-21,Practice 2,1953-08-21,Practice 3,1953-08-22,Qualifying,1953-08-22,Race,1953-08-23,False,1953
+8,9,Italy,Monza,,1953-09-13,Italian Grand Prix,conventional,Practice 1,1953-09-11,Practice 2,1953-09-11,Practice 3,1953-09-12,Qualifying,1953-09-12,Race,1953-09-13,False,1953

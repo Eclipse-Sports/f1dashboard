@@ -1,0 +1,11 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Monaco,Monte-Carlo,,1963-05-26,Monaco Grand Prix,conventional,Practice 1,1963-05-24,Practice 2,1963-05-24,Practice 3,1963-05-25,Qualifying,1963-05-25,Race,1963-05-26,False,1963
+1,2,Belgium,Spa,,1963-06-09,Belgian Grand Prix,conventional,Practice 1,1963-06-07,Practice 2,1963-06-07,Practice 3,1963-06-08,Qualifying,1963-06-08,Race,1963-06-09,False,1963
+2,3,Netherlands,Zandvoort,,1963-06-23,Dutch Grand Prix,conventional,Practice 1,1963-06-21,Practice 2,1963-06-21,Practice 3,1963-06-22,Qualifying,1963-06-22,Race,1963-06-23,False,1963
+3,4,France,Reims,,1963-06-30,French Grand Prix,conventional,Practice 1,1963-06-28,Practice 2,1963-06-28,Practice 3,1963-06-29,Qualifying,1963-06-29,Race,1963-06-30,False,1963
+4,5,UK,Silverstone,,1963-07-20,British Grand Prix,conventional,Practice 1,1963-07-18,Practice 2,1963-07-18,Practice 3,1963-07-19,Qualifying,1963-07-19,Race,1963-07-20,False,1963
+5,6,Germany,Nürburg,,1963-08-04,German Grand Prix,conventional,Practice 1,1963-08-02,Practice 2,1963-08-02,Practice 3,1963-08-03,Qualifying,1963-08-03,Race,1963-08-04,False,1963
+6,7,Italy,Monza,,1963-09-08,Italian Grand Prix,conventional,Practice 1,1963-09-06,Practice 2,1963-09-06,Practice 3,1963-09-07,Qualifying,1963-09-07,Race,1963-09-08,False,1963
+7,8,USA,New York State,,1963-10-06,United States Grand Prix,conventional,Practice 1,1963-10-04,Practice 2,1963-10-04,Practice 3,1963-10-05,Qualifying,1963-10-05,Race,1963-10-06,False,1963
+8,9,Mexico,Mexico City,,1963-10-27,Mexican Grand Prix,conventional,Practice 1,1963-10-25,Practice 2,1963-10-25,Practice 3,1963-10-26,Qualifying,1963-10-26,Race,1963-10-27,False,1963
+9,10,South Africa,Eastern Cape Province,,1963-12-28,South African Grand Prix,conventional,Practice 1,1963-12-26,Practice 2,1963-12-26,Practice 3,1963-12-27,Qualifying,1963-12-27,Race,1963-12-28,False,1963

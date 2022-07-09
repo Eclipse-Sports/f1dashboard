@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,USA,Phoenix,,1990-03-11,United States Grand Prix,conventional,Practice 1,1990-03-09,Practice 2,1990-03-09,Practice 3,1990-03-10,Qualifying,1990-03-10,Race,1990-03-11,False,1990
+1,2,Brazil,São Paulo,,1990-03-25,Brazilian Grand Prix,conventional,Practice 1,1990-03-23,Practice 2,1990-03-23,Practice 3,1990-03-24,Qualifying,1990-03-24,Race,1990-03-25,False,1990
+2,3,Italy,Imola,,1990-05-13,San Marino Grand Prix,conventional,Practice 1,1990-05-11,Practice 2,1990-05-11,Practice 3,1990-05-12,Qualifying,1990-05-12,Race,1990-05-13,False,1990
+3,4,Monaco,Monte-Carlo,,1990-05-27,Monaco Grand Prix,conventional,Practice 1,1990-05-25,Practice 2,1990-05-25,Practice 3,1990-05-26,Qualifying,1990-05-26,Race,1990-05-27,False,1990
+4,5,Canada,Montreal,,1990-06-10,Canadian Grand Prix,conventional,Practice 1,1990-06-08,Practice 2,1990-06-08,Practice 3,1990-06-09,Qualifying,1990-06-09,Race,1990-06-10,False,1990
+5,6,Mexico,Mexico City,,1990-06-24,Mexican Grand Prix,conventional,Practice 1,1990-06-22,Practice 2,1990-06-22,Practice 3,1990-06-23,Qualifying,1990-06-23,Race,1990-06-24,False,1990
+6,7,France,Le Castellet,,1990-07-08,French Grand Prix,conventional,Practice 1,1990-07-06,Practice 2,1990-07-06,Practice 3,1990-07-07,Qualifying,1990-07-07,Race,1990-07-08,False,1990
+7,8,UK,Silverstone,,1990-07-15,British Grand Prix,conventional,Practice 1,1990-07-13,Practice 2,1990-07-13,Practice 3,1990-07-14,Qualifying,1990-07-14,Race,1990-07-15,False,1990
+8,9,Germany,Hockenheim,,1990-07-29,German Grand Prix,conventional,Practice 1,1990-07-27,Practice 2,1990-07-27,Practice 3,1990-07-28,Qualifying,1990-07-28,Race,1990-07-29,False,1990
+9,10,Hungary,Budapest,,1990-08-12,Hungarian Grand Prix,conventional,Practice 1,1990-08-10,Practice 2,1990-08-10,Practice 3,1990-08-11,Qualifying,1990-08-11,Race,1990-08-12,False,1990
+10,11,Belgium,Spa,,1990-08-26,Belgian Grand Prix,conventional,Practice 1,1990-08-24,Practice 2,1990-08-24,Practice 3,1990-08-25,Qualifying,1990-08-25,Race,1990-08-26,False,1990
+11,12,Italy,Monza,,1990-09-09,Italian Grand Prix,conventional,Practice 1,1990-09-07,Practice 2,1990-09-07,Practice 3,1990-09-08,Qualifying,1990-09-08,Race,1990-09-09,False,1990
+12,13,Portugal,Estoril,,1990-09-23,Portuguese Grand Prix,conventional,Practice 1,1990-09-21,Practice 2,1990-09-21,Practice 3,1990-09-22,Qualifying,1990-09-22,Race,1990-09-23,False,1990
+13,14,Spain,Jerez de la Frontera,,1990-09-30,Spanish Grand Prix,conventional,Practice 1,1990-09-28,Practice 2,1990-09-28,Practice 3,1990-09-29,Qualifying,1990-09-29,Race,1990-09-30,False,1990
+14,15,Japan,Suzuka,,1990-10-21,Japanese Grand Prix,conventional,Practice 1,1990-10-19,Practice 2,1990-10-19,Practice 3,1990-10-20,Qualifying,1990-10-20,Race,1990-10-21,False,1990
+15,16,Australia,Adelaide,,1990-11-04,Australian Grand Prix,conventional,Practice 1,1990-11-02,Practice 2,1990-11-02,Practice 3,1990-11-03,Qualifying,1990-11-03,Race,1990-11-04,False,1990

@@ -1,0 +1,12 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,South Africa,Midrand,,1969-03-01,South African Grand Prix,conventional,Practice 1,1969-02-27,Practice 2,1969-02-27,Practice 3,1969-02-28,Qualifying,1969-02-28,Race,1969-03-01,False,1969
+1,2,Spain,Barcelona,,1969-05-04,Spanish Grand Prix,conventional,Practice 1,1969-05-02,Practice 2,1969-05-02,Practice 3,1969-05-03,Qualifying,1969-05-03,Race,1969-05-04,False,1969
+2,3,Monaco,Monte-Carlo,,1969-05-18,Monaco Grand Prix,conventional,Practice 1,1969-05-16,Practice 2,1969-05-16,Practice 3,1969-05-17,Qualifying,1969-05-17,Race,1969-05-18,False,1969
+3,4,Netherlands,Zandvoort,,1969-06-21,Dutch Grand Prix,conventional,Practice 1,1969-06-19,Practice 2,1969-06-19,Practice 3,1969-06-20,Qualifying,1969-06-20,Race,1969-06-21,False,1969
+4,5,France,Clermont-Ferrand,,1969-07-06,French Grand Prix,conventional,Practice 1,1969-07-04,Practice 2,1969-07-04,Practice 3,1969-07-05,Qualifying,1969-07-05,Race,1969-07-06,False,1969
+5,6,UK,Silverstone,,1969-07-19,British Grand Prix,conventional,Practice 1,1969-07-17,Practice 2,1969-07-17,Practice 3,1969-07-18,Qualifying,1969-07-18,Race,1969-07-19,False,1969
+6,7,Germany,Nürburg,,1969-08-03,German Grand Prix,conventional,Practice 1,1969-08-01,Practice 2,1969-08-01,Practice 3,1969-08-02,Qualifying,1969-08-02,Race,1969-08-03,False,1969
+7,8,Italy,Monza,,1969-09-07,Italian Grand Prix,conventional,Practice 1,1969-09-05,Practice 2,1969-09-05,Practice 3,1969-09-06,Qualifying,1969-09-06,Race,1969-09-07,False,1969
+8,9,Canada,Ontario,,1969-09-20,Canadian Grand Prix,conventional,Practice 1,1969-09-18,Practice 2,1969-09-18,Practice 3,1969-09-19,Qualifying,1969-09-19,Race,1969-09-20,False,1969
+9,10,USA,New York State,,1969-10-05,United States Grand Prix,conventional,Practice 1,1969-10-03,Practice 2,1969-10-03,Practice 3,1969-10-04,Qualifying,1969-10-04,Race,1969-10-05,False,1969
+10,11,Mexico,Mexico City,,1969-10-19,Mexican Grand Prix,conventional,Practice 1,1969-10-17,Practice 2,1969-10-17,Practice 3,1969-10-18,Qualifying,1969-10-18,Race,1969-10-19,False,1969

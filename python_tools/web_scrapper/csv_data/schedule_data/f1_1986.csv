@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Brazil,Rio de Janeiro,,1986-03-23,Brazilian Grand Prix,conventional,Practice 1,1986-03-21,Practice 2,1986-03-21,Practice 3,1986-03-22,Qualifying,1986-03-22,Race,1986-03-23,False,1986
+1,2,Spain,Jerez de la Frontera,,1986-04-13,Spanish Grand Prix,conventional,Practice 1,1986-04-11,Practice 2,1986-04-11,Practice 3,1986-04-12,Qualifying,1986-04-12,Race,1986-04-13,False,1986
+2,3,Italy,Imola,,1986-04-27,San Marino Grand Prix,conventional,Practice 1,1986-04-25,Practice 2,1986-04-25,Practice 3,1986-04-26,Qualifying,1986-04-26,Race,1986-04-27,False,1986
+3,4,Monaco,Monte-Carlo,,1986-05-11,Monaco Grand Prix,conventional,Practice 1,1986-05-09,Practice 2,1986-05-09,Practice 3,1986-05-10,Qualifying,1986-05-10,Race,1986-05-11,False,1986
+4,5,Belgium,Spa,,1986-05-25,Belgian Grand Prix,conventional,Practice 1,1986-05-23,Practice 2,1986-05-23,Practice 3,1986-05-24,Qualifying,1986-05-24,Race,1986-05-25,False,1986
+5,6,Canada,Montreal,,1986-06-15,Canadian Grand Prix,conventional,Practice 1,1986-06-13,Practice 2,1986-06-13,Practice 3,1986-06-14,Qualifying,1986-06-14,Race,1986-06-15,False,1986
+6,7,USA,Detroit,,1986-06-22,Detroit Grand Prix,conventional,Practice 1,1986-06-20,Practice 2,1986-06-20,Practice 3,1986-06-21,Qualifying,1986-06-21,Race,1986-06-22,False,1986
+7,8,France,Le Castellet,,1986-07-06,French Grand Prix,conventional,Practice 1,1986-07-04,Practice 2,1986-07-04,Practice 3,1986-07-05,Qualifying,1986-07-05,Race,1986-07-06,False,1986
+8,9,UK,Kent,,1986-07-13,British Grand Prix,conventional,Practice 1,1986-07-11,Practice 2,1986-07-11,Practice 3,1986-07-12,Qualifying,1986-07-12,Race,1986-07-13,False,1986
+9,10,Germany,Hockenheim,,1986-07-27,German Grand Prix,conventional,Practice 1,1986-07-25,Practice 2,1986-07-25,Practice 3,1986-07-26,Qualifying,1986-07-26,Race,1986-07-27,False,1986
+10,11,Hungary,Budapest,,1986-08-10,Hungarian Grand Prix,conventional,Practice 1,1986-08-08,Practice 2,1986-08-08,Practice 3,1986-08-09,Qualifying,1986-08-09,Race,1986-08-10,False,1986
+11,12,Austria,Spielberg,,1986-08-17,Austrian Grand Prix,conventional,Practice 1,1986-08-15,Practice 2,1986-08-15,Practice 3,1986-08-16,Qualifying,1986-08-16,Race,1986-08-17,False,1986
+12,13,Italy,Monza,,1986-09-07,Italian Grand Prix,conventional,Practice 1,1986-09-05,Practice 2,1986-09-05,Practice 3,1986-09-06,Qualifying,1986-09-06,Race,1986-09-07,False,1986
+13,14,Portugal,Estoril,,1986-09-21,Portuguese Grand Prix,conventional,Practice 1,1986-09-19,Practice 2,1986-09-19,Practice 3,1986-09-20,Qualifying,1986-09-20,Race,1986-09-21,False,1986
+14,15,Mexico,Mexico City,,1986-10-12,Mexican Grand Prix,conventional,Practice 1,1986-10-10,Practice 2,1986-10-10,Practice 3,1986-10-11,Qualifying,1986-10-11,Race,1986-10-12,False,1986
+15,16,Australia,Adelaide,,1986-10-26,Australian Grand Prix,conventional,Practice 1,1986-10-24,Practice 2,1986-10-24,Practice 3,1986-10-25,Qualifying,1986-10-25,Race,1986-10-26,False,1986

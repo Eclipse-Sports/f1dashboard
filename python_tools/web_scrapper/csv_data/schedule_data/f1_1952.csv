@@ -1,0 +1,9 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Switzerland,Bern,,1952-05-18,Swiss Grand Prix,conventional,Practice 1,1952-05-16,Practice 2,1952-05-16,Practice 3,1952-05-17,Qualifying,1952-05-17,Race,1952-05-18,False,1952
+1,2,USA,Indianapolis,,1952-05-30,Indianapolis 500,conventional,Practice 1,1952-05-28,Practice 2,1952-05-28,Practice 3,1952-05-29,Qualifying,1952-05-29,Race,1952-05-30,False,1952
+2,3,Belgium,Spa,,1952-06-22,Belgian Grand Prix,conventional,Practice 1,1952-06-20,Practice 2,1952-06-20,Practice 3,1952-06-21,Qualifying,1952-06-21,Race,1952-06-22,False,1952
+3,4,France,Rouen,,1952-07-06,French Grand Prix,conventional,Practice 1,1952-07-04,Practice 2,1952-07-04,Practice 3,1952-07-05,Qualifying,1952-07-05,Race,1952-07-06,False,1952
+4,5,UK,Silverstone,,1952-07-19,British Grand Prix,conventional,Practice 1,1952-07-17,Practice 2,1952-07-17,Practice 3,1952-07-18,Qualifying,1952-07-18,Race,1952-07-19,False,1952
+5,6,Germany,Nürburg,,1952-08-03,German Grand Prix,conventional,Practice 1,1952-08-01,Practice 2,1952-08-01,Practice 3,1952-08-02,Qualifying,1952-08-02,Race,1952-08-03,False,1952
+6,7,Netherlands,Zandvoort,,1952-08-17,Dutch Grand Prix,conventional,Practice 1,1952-08-15,Practice 2,1952-08-15,Practice 3,1952-08-16,Qualifying,1952-08-16,Race,1952-08-17,False,1952
+7,8,Italy,Monza,,1952-09-07,Italian Grand Prix,conventional,Practice 1,1952-09-05,Practice 2,1952-09-05,Practice 3,1952-09-06,Qualifying,1952-09-06,Race,1952-09-07,False,1952

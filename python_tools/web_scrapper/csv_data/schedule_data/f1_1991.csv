@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,USA,Phoenix,,1991-03-10,United States Grand Prix,conventional,Practice 1,1991-03-08,Practice 2,1991-03-08,Practice 3,1991-03-09,Qualifying,1991-03-09,Race,1991-03-10,False,1991
+1,2,Brazil,São Paulo,,1991-03-24,Brazilian Grand Prix,conventional,Practice 1,1991-03-22,Practice 2,1991-03-22,Practice 3,1991-03-23,Qualifying,1991-03-23,Race,1991-03-24,False,1991
+2,3,Italy,Imola,,1991-04-28,San Marino Grand Prix,conventional,Practice 1,1991-04-26,Practice 2,1991-04-26,Practice 3,1991-04-27,Qualifying,1991-04-27,Race,1991-04-28,False,1991
+3,4,Monaco,Monte-Carlo,,1991-05-12,Monaco Grand Prix,conventional,Practice 1,1991-05-10,Practice 2,1991-05-10,Practice 3,1991-05-11,Qualifying,1991-05-11,Race,1991-05-12,False,1991
+4,5,Canada,Montreal,,1991-06-02,Canadian Grand Prix,conventional,Practice 1,1991-05-31,Practice 2,1991-05-31,Practice 3,1991-06-01,Qualifying,1991-06-01,Race,1991-06-02,False,1991
+5,6,Mexico,Mexico City,,1991-06-16,Mexican Grand Prix,conventional,Practice 1,1991-06-14,Practice 2,1991-06-14,Practice 3,1991-06-15,Qualifying,1991-06-15,Race,1991-06-16,False,1991
+6,7,France,Magny Cours,,1991-07-07,French Grand Prix,conventional,Practice 1,1991-07-05,Practice 2,1991-07-05,Practice 3,1991-07-06,Qualifying,1991-07-06,Race,1991-07-07,False,1991
+7,8,UK,Silverstone,,1991-07-14,British Grand Prix,conventional,Practice 1,1991-07-12,Practice 2,1991-07-12,Practice 3,1991-07-13,Qualifying,1991-07-13,Race,1991-07-14,False,1991
+8,9,Germany,Hockenheim,,1991-07-28,German Grand Prix,conventional,Practice 1,1991-07-26,Practice 2,1991-07-26,Practice 3,1991-07-27,Qualifying,1991-07-27,Race,1991-07-28,False,1991
+9,10,Hungary,Budapest,,1991-08-11,Hungarian Grand Prix,conventional,Practice 1,1991-08-09,Practice 2,1991-08-09,Practice 3,1991-08-10,Qualifying,1991-08-10,Race,1991-08-11,False,1991
+10,11,Belgium,Spa,,1991-08-25,Belgian Grand Prix,conventional,Practice 1,1991-08-23,Practice 2,1991-08-23,Practice 3,1991-08-24,Qualifying,1991-08-24,Race,1991-08-25,False,1991
+11,12,Italy,Monza,,1991-09-08,Italian Grand Prix,conventional,Practice 1,1991-09-06,Practice 2,1991-09-06,Practice 3,1991-09-07,Qualifying,1991-09-07,Race,1991-09-08,False,1991
+12,13,Portugal,Estoril,,1991-09-22,Portuguese Grand Prix,conventional,Practice 1,1991-09-20,Practice 2,1991-09-20,Practice 3,1991-09-21,Qualifying,1991-09-21,Race,1991-09-22,False,1991
+13,14,Spain,Montmeló,,1991-09-29,Spanish Grand Prix,conventional,Practice 1,1991-09-27,Practice 2,1991-09-27,Practice 3,1991-09-28,Qualifying,1991-09-28,Race,1991-09-29,False,1991
+14,15,Japan,Suzuka,,1991-10-20,Japanese Grand Prix,conventional,Practice 1,1991-10-18,Practice 2,1991-10-18,Practice 3,1991-10-19,Qualifying,1991-10-19,Race,1991-10-20,False,1991
+15,16,Australia,Adelaide,,1991-11-03,Australian Grand Prix,conventional,Practice 1,1991-11-01,Practice 2,1991-11-01,Practice 3,1991-11-02,Qualifying,1991-11-02,Race,1991-11-03,False,1991

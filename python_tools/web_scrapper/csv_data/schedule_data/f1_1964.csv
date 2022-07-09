@@ -1,0 +1,11 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Monaco,Monte-Carlo,,1964-05-10,Monaco Grand Prix,conventional,Practice 1,1964-05-08,Practice 2,1964-05-08,Practice 3,1964-05-09,Qualifying,1964-05-09,Race,1964-05-10,False,1964
+1,2,Netherlands,Zandvoort,,1964-05-24,Dutch Grand Prix,conventional,Practice 1,1964-05-22,Practice 2,1964-05-22,Practice 3,1964-05-23,Qualifying,1964-05-23,Race,1964-05-24,False,1964
+2,3,Belgium,Spa,,1964-06-14,Belgian Grand Prix,conventional,Practice 1,1964-06-12,Practice 2,1964-06-12,Practice 3,1964-06-13,Qualifying,1964-06-13,Race,1964-06-14,False,1964
+3,4,France,Rouen,,1964-06-28,French Grand Prix,conventional,Practice 1,1964-06-26,Practice 2,1964-06-26,Practice 3,1964-06-27,Qualifying,1964-06-27,Race,1964-06-28,False,1964
+4,5,UK,Kent,,1964-07-11,British Grand Prix,conventional,Practice 1,1964-07-09,Practice 2,1964-07-09,Practice 3,1964-07-10,Qualifying,1964-07-10,Race,1964-07-11,False,1964
+5,6,Germany,Nürburg,,1964-08-02,German Grand Prix,conventional,Practice 1,1964-07-31,Practice 2,1964-07-31,Practice 3,1964-08-01,Qualifying,1964-08-01,Race,1964-08-02,False,1964
+6,7,Austria,Styria,,1964-08-23,Austrian Grand Prix,conventional,Practice 1,1964-08-21,Practice 2,1964-08-21,Practice 3,1964-08-22,Qualifying,1964-08-22,Race,1964-08-23,False,1964
+7,8,Italy,Monza,,1964-09-06,Italian Grand Prix,conventional,Practice 1,1964-09-04,Practice 2,1964-09-04,Practice 3,1964-09-05,Qualifying,1964-09-05,Race,1964-09-06,False,1964
+8,9,USA,New York State,,1964-10-04,United States Grand Prix,conventional,Practice 1,1964-10-02,Practice 2,1964-10-02,Practice 3,1964-10-03,Qualifying,1964-10-03,Race,1964-10-04,False,1964
+9,10,Mexico,Mexico City,,1964-10-25,Mexican Grand Prix,conventional,Practice 1,1964-10-23,Practice 2,1964-10-23,Practice 3,1964-10-24,Qualifying,1964-10-24,Race,1964-10-25,False,1964

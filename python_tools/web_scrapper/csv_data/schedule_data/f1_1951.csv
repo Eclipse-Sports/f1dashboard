@@ -1,0 +1,9 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Switzerland,Bern,,1951-05-27,Swiss Grand Prix,conventional,Practice 1,1951-05-25,Practice 2,1951-05-25,Practice 3,1951-05-26,Qualifying,1951-05-26,Race,1951-05-27,False,1951
+1,2,USA,Indianapolis,,1951-05-30,Indianapolis 500,conventional,Practice 1,1951-05-28,Practice 2,1951-05-28,Practice 3,1951-05-29,Qualifying,1951-05-29,Race,1951-05-30,False,1951
+2,3,Belgium,Spa,,1951-06-17,Belgian Grand Prix,conventional,Practice 1,1951-06-15,Practice 2,1951-06-15,Practice 3,1951-06-16,Qualifying,1951-06-16,Race,1951-06-17,False,1951
+3,4,France,Reims,,1951-07-01,French Grand Prix,conventional,Practice 1,1951-06-29,Practice 2,1951-06-29,Practice 3,1951-06-30,Qualifying,1951-06-30,Race,1951-07-01,False,1951
+4,5,UK,Silverstone,,1951-07-14,British Grand Prix,conventional,Practice 1,1951-07-12,Practice 2,1951-07-12,Practice 3,1951-07-13,Qualifying,1951-07-13,Race,1951-07-14,False,1951
+5,6,Germany,Nürburg,,1951-07-29,German Grand Prix,conventional,Practice 1,1951-07-27,Practice 2,1951-07-27,Practice 3,1951-07-28,Qualifying,1951-07-28,Race,1951-07-29,False,1951
+6,7,Italy,Monza,,1951-09-16,Italian Grand Prix,conventional,Practice 1,1951-09-14,Practice 2,1951-09-14,Practice 3,1951-09-15,Qualifying,1951-09-15,Race,1951-09-16,False,1951
+7,8,Spain,Barcelona,,1951-10-28,Spanish Grand Prix,conventional,Practice 1,1951-10-26,Practice 2,1951-10-26,Practice 3,1951-10-27,Qualifying,1951-10-27,Race,1951-10-28,False,1951

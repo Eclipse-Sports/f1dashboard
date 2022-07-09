@@ -1,0 +1,18 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1977-01-09,Argentine Grand Prix,conventional,Practice 1,1977-01-07,Practice 2,1977-01-07,Practice 3,1977-01-08,Qualifying,1977-01-08,Race,1977-01-09,False,1977
+1,2,Brazil,São Paulo,,1977-01-23,Brazilian Grand Prix,conventional,Practice 1,1977-01-21,Practice 2,1977-01-21,Practice 3,1977-01-22,Qualifying,1977-01-22,Race,1977-01-23,False,1977
+2,3,South Africa,Midrand,,1977-03-05,South African Grand Prix,conventional,Practice 1,1977-03-03,Practice 2,1977-03-03,Practice 3,1977-03-04,Qualifying,1977-03-04,Race,1977-03-05,False,1977
+3,4,USA,California,,1977-04-03,United States Grand Prix West,conventional,Practice 1,1977-04-01,Practice 2,1977-04-01,Practice 3,1977-04-02,Qualifying,1977-04-02,Race,1977-04-03,False,1977
+4,5,Spain,Madrid,,1977-05-08,Spanish Grand Prix,conventional,Practice 1,1977-05-06,Practice 2,1977-05-06,Practice 3,1977-05-07,Qualifying,1977-05-07,Race,1977-05-08,False,1977
+5,6,Monaco,Monte-Carlo,,1977-05-22,Monaco Grand Prix,conventional,Practice 1,1977-05-20,Practice 2,1977-05-20,Practice 3,1977-05-21,Qualifying,1977-05-21,Race,1977-05-22,False,1977
+6,7,Belgium,Heusden-Zolder,,1977-06-05,Belgian Grand Prix,conventional,Practice 1,1977-06-03,Practice 2,1977-06-03,Practice 3,1977-06-04,Qualifying,1977-06-04,Race,1977-06-05,False,1977
+7,8,Sweden,Anderstorp,,1977-06-19,Swedish Grand Prix,conventional,Practice 1,1977-06-17,Practice 2,1977-06-17,Practice 3,1977-06-18,Qualifying,1977-06-18,Race,1977-06-19,False,1977
+8,9,France,Dijon,,1977-07-03,French Grand Prix,conventional,Practice 1,1977-07-01,Practice 2,1977-07-01,Practice 3,1977-07-02,Qualifying,1977-07-02,Race,1977-07-03,False,1977
+9,10,UK,Silverstone,,1977-07-16,British Grand Prix,conventional,Practice 1,1977-07-14,Practice 2,1977-07-14,Practice 3,1977-07-15,Qualifying,1977-07-15,Race,1977-07-16,False,1977
+10,11,Germany,Hockenheim,,1977-07-31,German Grand Prix,conventional,Practice 1,1977-07-29,Practice 2,1977-07-29,Practice 3,1977-07-30,Qualifying,1977-07-30,Race,1977-07-31,False,1977
+11,12,Austria,Spielberg,,1977-08-14,Austrian Grand Prix,conventional,Practice 1,1977-08-12,Practice 2,1977-08-12,Practice 3,1977-08-13,Qualifying,1977-08-13,Race,1977-08-14,False,1977
+12,13,Netherlands,Zandvoort,,1977-08-28,Dutch Grand Prix,conventional,Practice 1,1977-08-26,Practice 2,1977-08-26,Practice 3,1977-08-27,Qualifying,1977-08-27,Race,1977-08-28,False,1977
+13,14,Italy,Monza,,1977-09-11,Italian Grand Prix,conventional,Practice 1,1977-09-09,Practice 2,1977-09-09,Practice 3,1977-09-10,Qualifying,1977-09-10,Race,1977-09-11,False,1977
+14,15,USA,New York State,,1977-10-02,United States Grand Prix,conventional,Practice 1,1977-09-30,Practice 2,1977-09-30,Practice 3,1977-10-01,Qualifying,1977-10-01,Race,1977-10-02,False,1977
+15,16,Canada,Ontario,,1977-10-09,Canadian Grand Prix,conventional,Practice 1,1977-10-07,Practice 2,1977-10-07,Practice 3,1977-10-08,Qualifying,1977-10-08,Race,1977-10-09,False,1977
+16,17,Japan,Oyama,,1977-10-23,Japanese Grand Prix,conventional,Practice 1,1977-10-21,Practice 2,1977-10-21,Practice 3,1977-10-22,Qualifying,1977-10-22,Race,1977-10-23,False,1977
