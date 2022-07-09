@@ -1,0 +1,8 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1955-01-16,Argentine Grand Prix,conventional,Practice 1,1955-01-14,Practice 2,1955-01-14,Practice 3,1955-01-15,Qualifying,1955-01-15,Race,1955-01-16,False,1955
+1,2,Monaco,Monte-Carlo,,1955-05-22,Monaco Grand Prix,conventional,Practice 1,1955-05-20,Practice 2,1955-05-20,Practice 3,1955-05-21,Qualifying,1955-05-21,Race,1955-05-22,False,1955
+2,3,USA,Indianapolis,,1955-05-30,Indianapolis 500,conventional,Practice 1,1955-05-28,Practice 2,1955-05-28,Practice 3,1955-05-29,Qualifying,1955-05-29,Race,1955-05-30,False,1955
+3,4,Belgium,Spa,,1955-06-05,Belgian Grand Prix,conventional,Practice 1,1955-06-03,Practice 2,1955-06-03,Practice 3,1955-06-04,Qualifying,1955-06-04,Race,1955-06-05,False,1955
+4,5,Netherlands,Zandvoort,,1955-06-19,Dutch Grand Prix,conventional,Practice 1,1955-06-17,Practice 2,1955-06-17,Practice 3,1955-06-18,Qualifying,1955-06-18,Race,1955-06-19,False,1955
+5,6,UK,Liverpool,,1955-07-16,British Grand Prix,conventional,Practice 1,1955-07-14,Practice 2,1955-07-14,Practice 3,1955-07-15,Qualifying,1955-07-15,Race,1955-07-16,False,1955
+6,7,Italy,Monza,,1955-09-11,Italian Grand Prix,conventional,Practice 1,1955-09-09,Practice 2,1955-09-09,Practice 3,1955-09-10,Qualifying,1955-09-10,Race,1955-09-11,False,1955

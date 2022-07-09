@@ -1,0 +1,13 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1972-01-23,Argentine Grand Prix,conventional,Practice 1,1972-01-21,Practice 2,1972-01-21,Practice 3,1972-01-22,Qualifying,1972-01-22,Race,1972-01-23,False,1972
+1,2,South Africa,Midrand,,1972-03-04,South African Grand Prix,conventional,Practice 1,1972-03-02,Practice 2,1972-03-02,Practice 3,1972-03-03,Qualifying,1972-03-03,Race,1972-03-04,False,1972
+2,3,Spain,Madrid,,1972-05-01,Spanish Grand Prix,conventional,Practice 1,1972-04-29,Practice 2,1972-04-29,Practice 3,1972-04-30,Qualifying,1972-04-30,Race,1972-05-01,False,1972
+3,4,Monaco,Monte-Carlo,,1972-05-14,Monaco Grand Prix,conventional,Practice 1,1972-05-12,Practice 2,1972-05-12,Practice 3,1972-05-13,Qualifying,1972-05-13,Race,1972-05-14,False,1972
+4,5,Belgium,Brussels,,1972-06-04,Belgian Grand Prix,conventional,Practice 1,1972-06-02,Practice 2,1972-06-02,Practice 3,1972-06-03,Qualifying,1972-06-03,Race,1972-06-04,False,1972
+5,6,France,Clermont-Ferrand,,1972-07-02,French Grand Prix,conventional,Practice 1,1972-06-30,Practice 2,1972-06-30,Practice 3,1972-07-01,Qualifying,1972-07-01,Race,1972-07-02,False,1972
+6,7,UK,Kent,,1972-07-15,British Grand Prix,conventional,Practice 1,1972-07-13,Practice 2,1972-07-13,Practice 3,1972-07-14,Qualifying,1972-07-14,Race,1972-07-15,False,1972
+7,8,Germany,Nürburg,,1972-07-30,German Grand Prix,conventional,Practice 1,1972-07-28,Practice 2,1972-07-28,Practice 3,1972-07-29,Qualifying,1972-07-29,Race,1972-07-30,False,1972
+8,9,Austria,Spielberg,,1972-08-13,Austrian Grand Prix,conventional,Practice 1,1972-08-11,Practice 2,1972-08-11,Practice 3,1972-08-12,Qualifying,1972-08-12,Race,1972-08-13,False,1972
+9,10,Italy,Monza,,1972-09-10,Italian Grand Prix,conventional,Practice 1,1972-09-08,Practice 2,1972-09-08,Practice 3,1972-09-09,Qualifying,1972-09-09,Race,1972-09-10,False,1972
+10,11,Canada,Ontario,,1972-09-24,Canadian Grand Prix,conventional,Practice 1,1972-09-22,Practice 2,1972-09-22,Practice 3,1972-09-23,Qualifying,1972-09-23,Race,1972-09-24,False,1972
+11,12,USA,New York State,,1972-10-08,United States Grand Prix,conventional,Practice 1,1972-10-06,Practice 2,1972-10-06,Practice 3,1972-10-07,Qualifying,1972-10-07,Race,1972-10-08,False,1972

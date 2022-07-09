@@ -1,0 +1,19 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Bahrain,Sakhir,,2006-03-12 14:30:00,Bahrain Grand Prix,conventional,Practice 1,2006-03-10,Practice 2,2006-03-10,Practice 3,2006-03-11,Qualifying,2006-03-11,Race,2006-03-12 14:30:00,False,2006
+1,2,Malaysia,Kuala Lumpur,,2006-03-19 15:00:00,Malaysian Grand Prix,conventional,Practice 1,2006-03-17,Practice 2,2006-03-17,Practice 3,2006-03-18,Qualifying,2006-03-18,Race,2006-03-19 15:00:00,False,2006
+2,3,Australia,Melbourne,,2006-04-02 14:00:00,Australian Grand Prix,conventional,Practice 1,2006-03-31,Practice 2,2006-03-31,Practice 3,2006-04-01,Qualifying,2006-04-01,Race,2006-04-02 14:00:00,False,2006
+3,4,Italy,Imola,,2006-04-23 14:00:00,San Marino Grand Prix,conventional,Practice 1,2006-04-21,Practice 2,2006-04-21,Practice 3,2006-04-22,Qualifying,2006-04-22,Race,2006-04-23 14:00:00,False,2006
+4,5,Germany,Nürburg,,2006-05-07 14:00:00,European Grand Prix,conventional,Practice 1,2006-05-05,Practice 2,2006-05-05,Practice 3,2006-05-06,Qualifying,2006-05-06,Race,2006-05-07 14:00:00,False,2006
+5,6,Spain,Montmeló,,2006-05-14 14:00:00,Spanish Grand Prix,conventional,Practice 1,2006-05-12,Practice 2,2006-05-12,Practice 3,2006-05-13,Qualifying,2006-05-13,Race,2006-05-14 14:00:00,False,2006
+6,7,Monaco,Monte-Carlo,,2006-05-28 14:00:00,Monaco Grand Prix,conventional,Practice 1,2006-05-26,Practice 2,2006-05-26,Practice 3,2006-05-27,Qualifying,2006-05-27,Race,2006-05-28 14:00:00,False,2006
+7,8,UK,Silverstone,,2006-06-11 12:00:00,British Grand Prix,conventional,Practice 1,2006-06-09,Practice 2,2006-06-09,Practice 3,2006-06-10,Qualifying,2006-06-10,Race,2006-06-11 12:00:00,False,2006
+8,9,Canada,Montreal,,2006-06-25 13:00:00,Canadian Grand Prix,conventional,Practice 1,2006-06-23,Practice 2,2006-06-23,Practice 3,2006-06-24,Qualifying,2006-06-24,Race,2006-06-25 13:00:00,False,2006
+9,10,USA,Indianapolis,,2006-07-02 14:00:00,United States Grand Prix,conventional,Practice 1,2006-06-30,Practice 2,2006-06-30,Practice 3,2006-07-01,Qualifying,2006-07-01,Race,2006-07-02 14:00:00,False,2006
+10,11,France,Magny Cours,,2006-07-16 14:00:00,French Grand Prix,conventional,Practice 1,2006-07-14,Practice 2,2006-07-14,Practice 3,2006-07-15,Qualifying,2006-07-15,Race,2006-07-16 14:00:00,False,2006
+11,12,Germany,Hockenheim,,2006-07-30 14:00:00,German Grand Prix,conventional,Practice 1,2006-07-28,Practice 2,2006-07-28,Practice 3,2006-07-29,Qualifying,2006-07-29,Race,2006-07-30 14:00:00,False,2006
+12,13,Hungary,Budapest,,2006-08-06 14:00:00,Hungarian Grand Prix,conventional,Practice 1,2006-08-04,Practice 2,2006-08-04,Practice 3,2006-08-05,Qualifying,2006-08-05,Race,2006-08-06 14:00:00,False,2006
+13,14,Turkey,Istanbul,,2006-08-27 15:00:00,Turkish Grand Prix,conventional,Practice 1,2006-08-25,Practice 2,2006-08-25,Practice 3,2006-08-26,Qualifying,2006-08-26,Race,2006-08-27 15:00:00,False,2006
+14,15,Italy,Monza,,2006-09-10 14:00:00,Italian Grand Prix,conventional,Practice 1,2006-09-08,Practice 2,2006-09-08,Practice 3,2006-09-09,Qualifying,2006-09-09,Race,2006-09-10 14:00:00,False,2006
+15,16,China,Shanghai,,2006-10-01 14:00:00,Chinese Grand Prix,conventional,Practice 1,2006-09-29,Practice 2,2006-09-29,Practice 3,2006-09-30,Qualifying,2006-09-30,Race,2006-10-01 14:00:00,False,2006
+16,17,Japan,Suzuka,,2006-10-08 14:00:00,Japanese Grand Prix,conventional,Practice 1,2006-10-06,Practice 2,2006-10-06,Practice 3,2006-10-07,Qualifying,2006-10-07,Race,2006-10-08 14:00:00,False,2006
+17,18,Brazil,São Paulo,,2006-10-22 14:00:00,Brazilian Grand Prix,conventional,Practice 1,2006-10-20,Practice 2,2006-10-20,Practice 3,2006-10-21,Qualifying,2006-10-21,Race,2006-10-22 14:00:00,False,2006

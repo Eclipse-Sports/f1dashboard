@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Australia,Melbourne,,1996-03-10,Australian Grand Prix,conventional,Practice 1,1996-03-08,Practice 2,1996-03-08,Practice 3,1996-03-09,Qualifying,1996-03-09,Race,1996-03-10,False,1996
+1,2,Brazil,São Paulo,,1996-03-31,Brazilian Grand Prix,conventional,Practice 1,1996-03-29,Practice 2,1996-03-29,Practice 3,1996-03-30,Qualifying,1996-03-30,Race,1996-03-31,False,1996
+2,3,Argentina,Buenos Aires,,1996-04-07,Argentine Grand Prix,conventional,Practice 1,1996-04-05,Practice 2,1996-04-05,Practice 3,1996-04-06,Qualifying,1996-04-06,Race,1996-04-07,False,1996
+3,4,Germany,Nürburg,,1996-04-28,European Grand Prix,conventional,Practice 1,1996-04-26,Practice 2,1996-04-26,Practice 3,1996-04-27,Qualifying,1996-04-27,Race,1996-04-28,False,1996
+4,5,Italy,Imola,,1996-05-05,San Marino Grand Prix,conventional,Practice 1,1996-05-03,Practice 2,1996-05-03,Practice 3,1996-05-04,Qualifying,1996-05-04,Race,1996-05-05,False,1996
+5,6,Monaco,Monte-Carlo,,1996-05-19,Monaco Grand Prix,conventional,Practice 1,1996-05-17,Practice 2,1996-05-17,Practice 3,1996-05-18,Qualifying,1996-05-18,Race,1996-05-19,False,1996
+6,7,Spain,Montmeló,,1996-06-02,Spanish Grand Prix,conventional,Practice 1,1996-05-31,Practice 2,1996-05-31,Practice 3,1996-06-01,Qualifying,1996-06-01,Race,1996-06-02,False,1996
+7,8,Canada,Montreal,,1996-06-16,Canadian Grand Prix,conventional,Practice 1,1996-06-14,Practice 2,1996-06-14,Practice 3,1996-06-15,Qualifying,1996-06-15,Race,1996-06-16,False,1996
+8,9,France,Magny Cours,,1996-06-30,French Grand Prix,conventional,Practice 1,1996-06-28,Practice 2,1996-06-28,Practice 3,1996-06-29,Qualifying,1996-06-29,Race,1996-06-30,False,1996
+9,10,UK,Silverstone,,1996-07-14,British Grand Prix,conventional,Practice 1,1996-07-12,Practice 2,1996-07-12,Practice 3,1996-07-13,Qualifying,1996-07-13,Race,1996-07-14,False,1996
+10,11,Germany,Hockenheim,,1996-07-28,German Grand Prix,conventional,Practice 1,1996-07-26,Practice 2,1996-07-26,Practice 3,1996-07-27,Qualifying,1996-07-27,Race,1996-07-28,False,1996
+11,12,Hungary,Budapest,,1996-08-11,Hungarian Grand Prix,conventional,Practice 1,1996-08-09,Practice 2,1996-08-09,Practice 3,1996-08-10,Qualifying,1996-08-10,Race,1996-08-11,False,1996
+12,13,Belgium,Spa,,1996-08-25,Belgian Grand Prix,conventional,Practice 1,1996-08-23,Practice 2,1996-08-23,Practice 3,1996-08-24,Qualifying,1996-08-24,Race,1996-08-25,False,1996
+13,14,Italy,Monza,,1996-09-08,Italian Grand Prix,conventional,Practice 1,1996-09-06,Practice 2,1996-09-06,Practice 3,1996-09-07,Qualifying,1996-09-07,Race,1996-09-08,False,1996
+14,15,Portugal,Estoril,,1996-09-22,Portuguese Grand Prix,conventional,Practice 1,1996-09-20,Practice 2,1996-09-20,Practice 3,1996-09-21,Qualifying,1996-09-21,Race,1996-09-22,False,1996
+15,16,Japan,Suzuka,,1996-10-13,Japanese Grand Prix,conventional,Practice 1,1996-10-11,Practice 2,1996-10-11,Practice 3,1996-10-12,Qualifying,1996-10-12,Race,1996-10-13,False,1996

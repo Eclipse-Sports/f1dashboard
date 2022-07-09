@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,South Africa,Midrand,,1992-03-01,South African Grand Prix,conventional,Practice 1,1992-02-28,Practice 2,1992-02-28,Practice 3,1992-02-29,Qualifying,1992-02-29,Race,1992-03-01,False,1992
+1,2,Mexico,Mexico City,,1992-03-22,Mexican Grand Prix,conventional,Practice 1,1992-03-20,Practice 2,1992-03-20,Practice 3,1992-03-21,Qualifying,1992-03-21,Race,1992-03-22,False,1992
+2,3,Brazil,São Paulo,,1992-04-05,Brazilian Grand Prix,conventional,Practice 1,1992-04-03,Practice 2,1992-04-03,Practice 3,1992-04-04,Qualifying,1992-04-04,Race,1992-04-05,False,1992
+3,4,Spain,Montmeló,,1992-05-03,Spanish Grand Prix,conventional,Practice 1,1992-05-01,Practice 2,1992-05-01,Practice 3,1992-05-02,Qualifying,1992-05-02,Race,1992-05-03,False,1992
+4,5,Italy,Imola,,1992-05-17,San Marino Grand Prix,conventional,Practice 1,1992-05-15,Practice 2,1992-05-15,Practice 3,1992-05-16,Qualifying,1992-05-16,Race,1992-05-17,False,1992
+5,6,Monaco,Monte-Carlo,,1992-05-31,Monaco Grand Prix,conventional,Practice 1,1992-05-29,Practice 2,1992-05-29,Practice 3,1992-05-30,Qualifying,1992-05-30,Race,1992-05-31,False,1992
+6,7,Canada,Montreal,,1992-06-14,Canadian Grand Prix,conventional,Practice 1,1992-06-12,Practice 2,1992-06-12,Practice 3,1992-06-13,Qualifying,1992-06-13,Race,1992-06-14,False,1992
+7,8,France,Magny Cours,,1992-07-05,French Grand Prix,conventional,Practice 1,1992-07-03,Practice 2,1992-07-03,Practice 3,1992-07-04,Qualifying,1992-07-04,Race,1992-07-05,False,1992
+8,9,UK,Silverstone,,1992-07-12,British Grand Prix,conventional,Practice 1,1992-07-10,Practice 2,1992-07-10,Practice 3,1992-07-11,Qualifying,1992-07-11,Race,1992-07-12,False,1992
+9,10,Germany,Hockenheim,,1992-07-26,German Grand Prix,conventional,Practice 1,1992-07-24,Practice 2,1992-07-24,Practice 3,1992-07-25,Qualifying,1992-07-25,Race,1992-07-26,False,1992
+10,11,Hungary,Budapest,,1992-08-16,Hungarian Grand Prix,conventional,Practice 1,1992-08-14,Practice 2,1992-08-14,Practice 3,1992-08-15,Qualifying,1992-08-15,Race,1992-08-16,False,1992
+11,12,Belgium,Spa,,1992-08-30,Belgian Grand Prix,conventional,Practice 1,1992-08-28,Practice 2,1992-08-28,Practice 3,1992-08-29,Qualifying,1992-08-29,Race,1992-08-30,False,1992
+12,13,Italy,Monza,,1992-09-13,Italian Grand Prix,conventional,Practice 1,1992-09-11,Practice 2,1992-09-11,Practice 3,1992-09-12,Qualifying,1992-09-12,Race,1992-09-13,False,1992
+13,14,Portugal,Estoril,,1992-09-27,Portuguese Grand Prix,conventional,Practice 1,1992-09-25,Practice 2,1992-09-25,Practice 3,1992-09-26,Qualifying,1992-09-26,Race,1992-09-27,False,1992
+14,15,Japan,Suzuka,,1992-10-25,Japanese Grand Prix,conventional,Practice 1,1992-10-23,Practice 2,1992-10-23,Practice 3,1992-10-24,Qualifying,1992-10-24,Race,1992-10-25,False,1992
+15,16,Australia,Adelaide,,1992-11-08,Australian Grand Prix,conventional,Practice 1,1992-11-06,Practice 2,1992-11-06,Practice 3,1992-11-07,Qualifying,1992-11-07,Race,1992-11-08,False,1992

@@ -1,0 +1,15 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1975-01-12,Argentine Grand Prix,conventional,Practice 1,1975-01-10,Practice 2,1975-01-10,Practice 3,1975-01-11,Qualifying,1975-01-11,Race,1975-01-12,False,1975
+1,2,Brazil,São Paulo,,1975-01-26,Brazilian Grand Prix,conventional,Practice 1,1975-01-24,Practice 2,1975-01-24,Practice 3,1975-01-25,Qualifying,1975-01-25,Race,1975-01-26,False,1975
+2,3,South Africa,Midrand,,1975-03-01,South African Grand Prix,conventional,Practice 1,1975-02-27,Practice 2,1975-02-27,Practice 3,1975-02-28,Qualifying,1975-02-28,Race,1975-03-01,False,1975
+3,4,Spain,Barcelona,,1975-04-27,Spanish Grand Prix,conventional,Practice 1,1975-04-25,Practice 2,1975-04-25,Practice 3,1975-04-26,Qualifying,1975-04-26,Race,1975-04-27,False,1975
+4,5,Monaco,Monte-Carlo,,1975-05-11,Monaco Grand Prix,conventional,Practice 1,1975-05-09,Practice 2,1975-05-09,Practice 3,1975-05-10,Qualifying,1975-05-10,Race,1975-05-11,False,1975
+5,6,Belgium,Heusden-Zolder,,1975-05-25,Belgian Grand Prix,conventional,Practice 1,1975-05-23,Practice 2,1975-05-23,Practice 3,1975-05-24,Qualifying,1975-05-24,Race,1975-05-25,False,1975
+6,7,Sweden,Anderstorp,,1975-06-08,Swedish Grand Prix,conventional,Practice 1,1975-06-06,Practice 2,1975-06-06,Practice 3,1975-06-07,Qualifying,1975-06-07,Race,1975-06-08,False,1975
+7,8,Netherlands,Zandvoort,,1975-06-22,Dutch Grand Prix,conventional,Practice 1,1975-06-20,Practice 2,1975-06-20,Practice 3,1975-06-21,Qualifying,1975-06-21,Race,1975-06-22,False,1975
+8,9,France,Le Castellet,,1975-07-06,French Grand Prix,conventional,Practice 1,1975-07-04,Practice 2,1975-07-04,Practice 3,1975-07-05,Qualifying,1975-07-05,Race,1975-07-06,False,1975
+9,10,UK,Silverstone,,1975-07-19,British Grand Prix,conventional,Practice 1,1975-07-17,Practice 2,1975-07-17,Practice 3,1975-07-18,Qualifying,1975-07-18,Race,1975-07-19,False,1975
+10,11,Germany,Nürburg,,1975-08-03,German Grand Prix,conventional,Practice 1,1975-08-01,Practice 2,1975-08-01,Practice 3,1975-08-02,Qualifying,1975-08-02,Race,1975-08-03,False,1975
+11,12,Austria,Spielberg,,1975-08-17,Austrian Grand Prix,conventional,Practice 1,1975-08-15,Practice 2,1975-08-15,Practice 3,1975-08-16,Qualifying,1975-08-16,Race,1975-08-17,False,1975
+12,13,Italy,Monza,,1975-09-07,Italian Grand Prix,conventional,Practice 1,1975-09-05,Practice 2,1975-09-05,Practice 3,1975-09-06,Qualifying,1975-09-06,Race,1975-09-07,False,1975
+13,14,USA,New York State,,1975-10-05,United States Grand Prix,conventional,Practice 1,1975-10-03,Practice 2,1975-10-03,Practice 3,1975-10-04,Qualifying,1975-10-04,Race,1975-10-05,False,1975

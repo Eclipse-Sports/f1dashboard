@@ -1,0 +1,9 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1956-01-22,Argentine Grand Prix,conventional,Practice 1,1956-01-20,Practice 2,1956-01-20,Practice 3,1956-01-21,Qualifying,1956-01-21,Race,1956-01-22,False,1956
+1,2,Monaco,Monte-Carlo,,1956-05-13,Monaco Grand Prix,conventional,Practice 1,1956-05-11,Practice 2,1956-05-11,Practice 3,1956-05-12,Qualifying,1956-05-12,Race,1956-05-13,False,1956
+2,3,USA,Indianapolis,,1956-05-30,Indianapolis 500,conventional,Practice 1,1956-05-28,Practice 2,1956-05-28,Practice 3,1956-05-29,Qualifying,1956-05-29,Race,1956-05-30,False,1956
+3,4,Belgium,Spa,,1956-06-03,Belgian Grand Prix,conventional,Practice 1,1956-06-01,Practice 2,1956-06-01,Practice 3,1956-06-02,Qualifying,1956-06-02,Race,1956-06-03,False,1956
+4,5,France,Reims,,1956-07-01,French Grand Prix,conventional,Practice 1,1956-06-29,Practice 2,1956-06-29,Practice 3,1956-06-30,Qualifying,1956-06-30,Race,1956-07-01,False,1956
+5,6,UK,Silverstone,,1956-07-14,British Grand Prix,conventional,Practice 1,1956-07-12,Practice 2,1956-07-12,Practice 3,1956-07-13,Qualifying,1956-07-13,Race,1956-07-14,False,1956
+6,7,Germany,Nürburg,,1956-08-05,German Grand Prix,conventional,Practice 1,1956-08-03,Practice 2,1956-08-03,Practice 3,1956-08-04,Qualifying,1956-08-04,Race,1956-08-05,False,1956
+7,8,Italy,Monza,,1956-09-02,Italian Grand Prix,conventional,Practice 1,1956-08-31,Practice 2,1956-08-31,Practice 3,1956-09-01,Qualifying,1956-09-01,Race,1956-09-02,False,1956

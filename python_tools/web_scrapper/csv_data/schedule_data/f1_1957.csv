@@ -1,0 +1,9 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1957-01-13,Argentine Grand Prix,conventional,Practice 1,1957-01-11,Practice 2,1957-01-11,Practice 3,1957-01-12,Qualifying,1957-01-12,Race,1957-01-13,False,1957
+1,2,Monaco,Monte-Carlo,,1957-05-19,Monaco Grand Prix,conventional,Practice 1,1957-05-17,Practice 2,1957-05-17,Practice 3,1957-05-18,Qualifying,1957-05-18,Race,1957-05-19,False,1957
+2,3,USA,Indianapolis,,1957-05-30,Indianapolis 500,conventional,Practice 1,1957-05-28,Practice 2,1957-05-28,Practice 3,1957-05-29,Qualifying,1957-05-29,Race,1957-05-30,False,1957
+3,4,France,Rouen,,1957-07-07,French Grand Prix,conventional,Practice 1,1957-07-05,Practice 2,1957-07-05,Practice 3,1957-07-06,Qualifying,1957-07-06,Race,1957-07-07,False,1957
+4,5,UK,Liverpool,,1957-07-20,British Grand Prix,conventional,Practice 1,1957-07-18,Practice 2,1957-07-18,Practice 3,1957-07-19,Qualifying,1957-07-19,Race,1957-07-20,False,1957
+5,6,Germany,Nürburg,,1957-08-04,German Grand Prix,conventional,Practice 1,1957-08-02,Practice 2,1957-08-02,Practice 3,1957-08-03,Qualifying,1957-08-03,Race,1957-08-04,False,1957
+6,7,Italy,Pescara,,1957-08-18,Pescara Grand Prix,conventional,Practice 1,1957-08-16,Practice 2,1957-08-16,Practice 3,1957-08-17,Qualifying,1957-08-17,Race,1957-08-18,False,1957
+7,8,Italy,Monza,,1957-09-08,Italian Grand Prix,conventional,Practice 1,1957-09-06,Practice 2,1957-09-06,Practice 3,1957-09-07,Qualifying,1957-09-07,Race,1957-09-08,False,1957

@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,South Africa,Midrand,,1982-01-23,South African Grand Prix,conventional,Practice 1,1982-01-21,Practice 2,1982-01-21,Practice 3,1982-01-22,Qualifying,1982-01-22,Race,1982-01-23,False,1982
+1,2,Brazil,Rio de Janeiro,,1982-03-21,Brazilian Grand Prix,conventional,Practice 1,1982-03-19,Practice 2,1982-03-19,Practice 3,1982-03-20,Qualifying,1982-03-20,Race,1982-03-21,False,1982
+2,3,USA,California,,1982-04-04,United States Grand Prix West,conventional,Practice 1,1982-04-02,Practice 2,1982-04-02,Practice 3,1982-04-03,Qualifying,1982-04-03,Race,1982-04-04,False,1982
+3,4,Italy,Imola,,1982-04-25,San Marino Grand Prix,conventional,Practice 1,1982-04-23,Practice 2,1982-04-23,Practice 3,1982-04-24,Qualifying,1982-04-24,Race,1982-04-25,False,1982
+4,5,Belgium,Heusden-Zolder,,1982-05-09,Belgian Grand Prix,conventional,Practice 1,1982-05-07,Practice 2,1982-05-07,Practice 3,1982-05-08,Qualifying,1982-05-08,Race,1982-05-09,False,1982
+5,6,Monaco,Monte-Carlo,,1982-05-23,Monaco Grand Prix,conventional,Practice 1,1982-05-21,Practice 2,1982-05-21,Practice 3,1982-05-22,Qualifying,1982-05-22,Race,1982-05-23,False,1982
+6,7,USA,Detroit,,1982-06-06,Detroit Grand Prix,conventional,Practice 1,1982-06-04,Practice 2,1982-06-04,Practice 3,1982-06-05,Qualifying,1982-06-05,Race,1982-06-06,False,1982
+7,8,Canada,Montreal,,1982-06-13,Canadian Grand Prix,conventional,Practice 1,1982-06-11,Practice 2,1982-06-11,Practice 3,1982-06-12,Qualifying,1982-06-12,Race,1982-06-13,False,1982
+8,9,Netherlands,Zandvoort,,1982-07-03,Dutch Grand Prix,conventional,Practice 1,1982-07-01,Practice 2,1982-07-01,Practice 3,1982-07-02,Qualifying,1982-07-02,Race,1982-07-03,False,1982
+9,10,UK,Kent,,1982-07-18,British Grand Prix,conventional,Practice 1,1982-07-16,Practice 2,1982-07-16,Practice 3,1982-07-17,Qualifying,1982-07-17,Race,1982-07-18,False,1982
+10,11,France,Le Castellet,,1982-07-25,French Grand Prix,conventional,Practice 1,1982-07-23,Practice 2,1982-07-23,Practice 3,1982-07-24,Qualifying,1982-07-24,Race,1982-07-25,False,1982
+11,12,Germany,Hockenheim,,1982-08-08,German Grand Prix,conventional,Practice 1,1982-08-06,Practice 2,1982-08-06,Practice 3,1982-08-07,Qualifying,1982-08-07,Race,1982-08-08,False,1982
+12,13,Austria,Spielberg,,1982-08-15,Austrian Grand Prix,conventional,Practice 1,1982-08-13,Practice 2,1982-08-13,Practice 3,1982-08-14,Qualifying,1982-08-14,Race,1982-08-15,False,1982
+13,14,France,Dijon,,1982-08-29,Swiss Grand Prix,conventional,Practice 1,1982-08-27,Practice 2,1982-08-27,Practice 3,1982-08-28,Qualifying,1982-08-28,Race,1982-08-29,False,1982
+14,15,Italy,Monza,,1982-09-12,Italian Grand Prix,conventional,Practice 1,1982-09-10,Practice 2,1982-09-10,Practice 3,1982-09-11,Qualifying,1982-09-11,Race,1982-09-12,False,1982
+15,16,USA,Nevada,,1982-09-25,Caesars Palace Grand Prix,conventional,Practice 1,1982-09-23,Practice 2,1982-09-23,Practice 3,1982-09-24,Qualifying,1982-09-24,Race,1982-09-25,False,1982

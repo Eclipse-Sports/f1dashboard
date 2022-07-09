@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Brazil,Rio de Janeiro,,1985-04-07,Brazilian Grand Prix,conventional,Practice 1,1985-04-05,Practice 2,1985-04-05,Practice 3,1985-04-06,Qualifying,1985-04-06,Race,1985-04-07,False,1985
+1,2,Portugal,Estoril,,1985-04-21,Portuguese Grand Prix,conventional,Practice 1,1985-04-19,Practice 2,1985-04-19,Practice 3,1985-04-20,Qualifying,1985-04-20,Race,1985-04-21,False,1985
+2,3,Italy,Imola,,1985-05-05,San Marino Grand Prix,conventional,Practice 1,1985-05-03,Practice 2,1985-05-03,Practice 3,1985-05-04,Qualifying,1985-05-04,Race,1985-05-05,False,1985
+3,4,Monaco,Monte-Carlo,,1985-05-19,Monaco Grand Prix,conventional,Practice 1,1985-05-17,Practice 2,1985-05-17,Practice 3,1985-05-18,Qualifying,1985-05-18,Race,1985-05-19,False,1985
+4,5,Canada,Montreal,,1985-06-16,Canadian Grand Prix,conventional,Practice 1,1985-06-14,Practice 2,1985-06-14,Practice 3,1985-06-15,Qualifying,1985-06-15,Race,1985-06-16,False,1985
+5,6,USA,Detroit,,1985-06-23,Detroit Grand Prix,conventional,Practice 1,1985-06-21,Practice 2,1985-06-21,Practice 3,1985-06-22,Qualifying,1985-06-22,Race,1985-06-23,False,1985
+6,7,France,Le Castellet,,1985-07-07,French Grand Prix,conventional,Practice 1,1985-07-05,Practice 2,1985-07-05,Practice 3,1985-07-06,Qualifying,1985-07-06,Race,1985-07-07,False,1985
+7,8,UK,Silverstone,,1985-07-21,British Grand Prix,conventional,Practice 1,1985-07-19,Practice 2,1985-07-19,Practice 3,1985-07-20,Qualifying,1985-07-20,Race,1985-07-21,False,1985
+8,9,Germany,Nürburg,,1985-08-04,German Grand Prix,conventional,Practice 1,1985-08-02,Practice 2,1985-08-02,Practice 3,1985-08-03,Qualifying,1985-08-03,Race,1985-08-04,False,1985
+9,10,Austria,Spielberg,,1985-08-18,Austrian Grand Prix,conventional,Practice 1,1985-08-16,Practice 2,1985-08-16,Practice 3,1985-08-17,Qualifying,1985-08-17,Race,1985-08-18,False,1985
+10,11,Netherlands,Zandvoort,,1985-08-25,Dutch Grand Prix,conventional,Practice 1,1985-08-23,Practice 2,1985-08-23,Practice 3,1985-08-24,Qualifying,1985-08-24,Race,1985-08-25,False,1985
+11,12,Italy,Monza,,1985-09-08,Italian Grand Prix,conventional,Practice 1,1985-09-06,Practice 2,1985-09-06,Practice 3,1985-09-07,Qualifying,1985-09-07,Race,1985-09-08,False,1985
+12,13,Belgium,Spa,,1985-09-15,Belgian Grand Prix,conventional,Practice 1,1985-09-13,Practice 2,1985-09-13,Practice 3,1985-09-14,Qualifying,1985-09-14,Race,1985-09-15,False,1985
+13,14,UK,Kent,,1985-10-06,European Grand Prix,conventional,Practice 1,1985-10-04,Practice 2,1985-10-04,Practice 3,1985-10-05,Qualifying,1985-10-05,Race,1985-10-06,False,1985
+14,15,South Africa,Midrand,,1985-10-19,South African Grand Prix,conventional,Practice 1,1985-10-17,Practice 2,1985-10-17,Practice 3,1985-10-18,Qualifying,1985-10-18,Race,1985-10-19,False,1985
+15,16,Australia,Adelaide,,1985-11-03,Australian Grand Prix,conventional,Practice 1,1985-11-01,Practice 2,1985-11-01,Practice 3,1985-11-02,Qualifying,1985-11-02,Race,1985-11-03,False,1985

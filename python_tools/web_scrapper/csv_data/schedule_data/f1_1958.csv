@@ -1,0 +1,12 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1958-01-19,Argentine Grand Prix,conventional,Practice 1,1958-01-17,Practice 2,1958-01-17,Practice 3,1958-01-18,Qualifying,1958-01-18,Race,1958-01-19,False,1958
+1,2,Monaco,Monte-Carlo,,1958-05-18,Monaco Grand Prix,conventional,Practice 1,1958-05-16,Practice 2,1958-05-16,Practice 3,1958-05-17,Qualifying,1958-05-17,Race,1958-05-18,False,1958
+2,3,Netherlands,Zandvoort,,1958-05-26,Dutch Grand Prix,conventional,Practice 1,1958-05-24,Practice 2,1958-05-24,Practice 3,1958-05-25,Qualifying,1958-05-25,Race,1958-05-26,False,1958
+3,4,USA,Indianapolis,,1958-05-30,Indianapolis 500,conventional,Practice 1,1958-05-28,Practice 2,1958-05-28,Practice 3,1958-05-29,Qualifying,1958-05-29,Race,1958-05-30,False,1958
+4,5,Belgium,Spa,,1958-06-15,Belgian Grand Prix,conventional,Practice 1,1958-06-13,Practice 2,1958-06-13,Practice 3,1958-06-14,Qualifying,1958-06-14,Race,1958-06-15,False,1958
+5,6,France,Reims,,1958-07-06,French Grand Prix,conventional,Practice 1,1958-07-04,Practice 2,1958-07-04,Practice 3,1958-07-05,Qualifying,1958-07-05,Race,1958-07-06,False,1958
+6,7,UK,Silverstone,,1958-07-19,British Grand Prix,conventional,Practice 1,1958-07-17,Practice 2,1958-07-17,Practice 3,1958-07-18,Qualifying,1958-07-18,Race,1958-07-19,False,1958
+7,8,Germany,Nürburg,,1958-08-03,German Grand Prix,conventional,Practice 1,1958-08-01,Practice 2,1958-08-01,Practice 3,1958-08-02,Qualifying,1958-08-02,Race,1958-08-03,False,1958
+8,9,Portugal,Oporto,,1958-08-24,Portuguese Grand Prix,conventional,Practice 1,1958-08-22,Practice 2,1958-08-22,Practice 3,1958-08-23,Qualifying,1958-08-23,Race,1958-08-24,False,1958
+9,10,Italy,Monza,,1958-09-07,Italian Grand Prix,conventional,Practice 1,1958-09-05,Practice 2,1958-09-05,Practice 3,1958-09-06,Qualifying,1958-09-06,Race,1958-09-07,False,1958
+10,11,Morocco,Casablanca,,1958-10-19,Moroccan Grand Prix,conventional,Practice 1,1958-10-17,Practice 2,1958-10-17,Practice 3,1958-10-18,Qualifying,1958-10-18,Race,1958-10-19,False,1958

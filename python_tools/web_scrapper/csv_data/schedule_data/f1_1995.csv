@@ -1,0 +1,18 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Brazil,São Paulo,,1995-03-26,Brazilian Grand Prix,conventional,Practice 1,1995-03-24,Practice 2,1995-03-24,Practice 3,1995-03-25,Qualifying,1995-03-25,Race,1995-03-26,False,1995
+1,2,Argentina,Buenos Aires,,1995-04-09,Argentine Grand Prix,conventional,Practice 1,1995-04-07,Practice 2,1995-04-07,Practice 3,1995-04-08,Qualifying,1995-04-08,Race,1995-04-09,False,1995
+2,3,Italy,Imola,,1995-04-30,San Marino Grand Prix,conventional,Practice 1,1995-04-28,Practice 2,1995-04-28,Practice 3,1995-04-29,Qualifying,1995-04-29,Race,1995-04-30,False,1995
+3,4,Spain,Montmeló,,1995-05-14,Spanish Grand Prix,conventional,Practice 1,1995-05-12,Practice 2,1995-05-12,Practice 3,1995-05-13,Qualifying,1995-05-13,Race,1995-05-14,False,1995
+4,5,Monaco,Monte-Carlo,,1995-05-28,Monaco Grand Prix,conventional,Practice 1,1995-05-26,Practice 2,1995-05-26,Practice 3,1995-05-27,Qualifying,1995-05-27,Race,1995-05-28,False,1995
+5,6,Canada,Montreal,,1995-06-11,Canadian Grand Prix,conventional,Practice 1,1995-06-09,Practice 2,1995-06-09,Practice 3,1995-06-10,Qualifying,1995-06-10,Race,1995-06-11,False,1995
+6,7,France,Magny Cours,,1995-07-02,French Grand Prix,conventional,Practice 1,1995-06-30,Practice 2,1995-06-30,Practice 3,1995-07-01,Qualifying,1995-07-01,Race,1995-07-02,False,1995
+7,8,UK,Silverstone,,1995-07-16,British Grand Prix,conventional,Practice 1,1995-07-14,Practice 2,1995-07-14,Practice 3,1995-07-15,Qualifying,1995-07-15,Race,1995-07-16,False,1995
+8,9,Germany,Hockenheim,,1995-07-30,German Grand Prix,conventional,Practice 1,1995-07-28,Practice 2,1995-07-28,Practice 3,1995-07-29,Qualifying,1995-07-29,Race,1995-07-30,False,1995
+9,10,Hungary,Budapest,,1995-08-13,Hungarian Grand Prix,conventional,Practice 1,1995-08-11,Practice 2,1995-08-11,Practice 3,1995-08-12,Qualifying,1995-08-12,Race,1995-08-13,False,1995
+10,11,Belgium,Spa,,1995-08-27,Belgian Grand Prix,conventional,Practice 1,1995-08-25,Practice 2,1995-08-25,Practice 3,1995-08-26,Qualifying,1995-08-26,Race,1995-08-27,False,1995
+11,12,Italy,Monza,,1995-09-10,Italian Grand Prix,conventional,Practice 1,1995-09-08,Practice 2,1995-09-08,Practice 3,1995-09-09,Qualifying,1995-09-09,Race,1995-09-10,False,1995
+12,13,Portugal,Estoril,,1995-09-24,Portuguese Grand Prix,conventional,Practice 1,1995-09-22,Practice 2,1995-09-22,Practice 3,1995-09-23,Qualifying,1995-09-23,Race,1995-09-24,False,1995
+13,14,Germany,Nürburg,,1995-10-01,European Grand Prix,conventional,Practice 1,1995-09-29,Practice 2,1995-09-29,Practice 3,1995-09-30,Qualifying,1995-09-30,Race,1995-10-01,False,1995
+14,15,Japan,Okayama,,1995-10-22,Pacific Grand Prix,conventional,Practice 1,1995-10-20,Practice 2,1995-10-20,Practice 3,1995-10-21,Qualifying,1995-10-21,Race,1995-10-22,False,1995
+15,16,Japan,Suzuka,,1995-10-29,Japanese Grand Prix,conventional,Practice 1,1995-10-27,Practice 2,1995-10-27,Practice 3,1995-10-28,Qualifying,1995-10-28,Race,1995-10-29,False,1995
+16,17,Australia,Adelaide,,1995-11-12,Australian Grand Prix,conventional,Practice 1,1995-11-10,Practice 2,1995-11-10,Practice 3,1995-11-11,Qualifying,1995-11-11,Race,1995-11-12,False,1995

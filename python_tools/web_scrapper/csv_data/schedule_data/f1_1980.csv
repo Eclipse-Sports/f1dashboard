@@ -1,0 +1,15 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1980-01-13,Argentine Grand Prix,conventional,Practice 1,1980-01-11,Practice 2,1980-01-11,Practice 3,1980-01-12,Qualifying,1980-01-12,Race,1980-01-13,False,1980
+1,2,Brazil,São Paulo,,1980-01-27,Brazilian Grand Prix,conventional,Practice 1,1980-01-25,Practice 2,1980-01-25,Practice 3,1980-01-26,Qualifying,1980-01-26,Race,1980-01-27,False,1980
+2,3,South Africa,Midrand,,1980-03-01,South African Grand Prix,conventional,Practice 1,1980-02-28,Practice 2,1980-02-28,Practice 3,1980-02-29,Qualifying,1980-02-29,Race,1980-03-01,False,1980
+3,4,USA,California,,1980-03-30,United States Grand Prix West,conventional,Practice 1,1980-03-28,Practice 2,1980-03-28,Practice 3,1980-03-29,Qualifying,1980-03-29,Race,1980-03-30,False,1980
+4,5,Belgium,Heusden-Zolder,,1980-05-04,Belgian Grand Prix,conventional,Practice 1,1980-05-02,Practice 2,1980-05-02,Practice 3,1980-05-03,Qualifying,1980-05-03,Race,1980-05-04,False,1980
+5,6,Monaco,Monte-Carlo,,1980-05-18,Monaco Grand Prix,conventional,Practice 1,1980-05-16,Practice 2,1980-05-16,Practice 3,1980-05-17,Qualifying,1980-05-17,Race,1980-05-18,False,1980
+6,7,France,Le Castellet,,1980-06-29,French Grand Prix,conventional,Practice 1,1980-06-27,Practice 2,1980-06-27,Practice 3,1980-06-28,Qualifying,1980-06-28,Race,1980-06-29,False,1980
+7,8,UK,Kent,,1980-07-13,British Grand Prix,conventional,Practice 1,1980-07-11,Practice 2,1980-07-11,Practice 3,1980-07-12,Qualifying,1980-07-12,Race,1980-07-13,False,1980
+8,9,Germany,Hockenheim,,1980-08-10,German Grand Prix,conventional,Practice 1,1980-08-08,Practice 2,1980-08-08,Practice 3,1980-08-09,Qualifying,1980-08-09,Race,1980-08-10,False,1980
+9,10,Austria,Spielberg,,1980-08-17,Austrian Grand Prix,conventional,Practice 1,1980-08-15,Practice 2,1980-08-15,Practice 3,1980-08-16,Qualifying,1980-08-16,Race,1980-08-17,False,1980
+10,11,Netherlands,Zandvoort,,1980-08-31,Dutch Grand Prix,conventional,Practice 1,1980-08-29,Practice 2,1980-08-29,Practice 3,1980-08-30,Qualifying,1980-08-30,Race,1980-08-31,False,1980
+11,12,Italy,Imola,,1980-09-14,Italian Grand Prix,conventional,Practice 1,1980-09-12,Practice 2,1980-09-12,Practice 3,1980-09-13,Qualifying,1980-09-13,Race,1980-09-14,False,1980
+12,13,Canada,Montreal,,1980-09-28,Canadian Grand Prix,conventional,Practice 1,1980-09-26,Practice 2,1980-09-26,Practice 3,1980-09-27,Qualifying,1980-09-27,Race,1980-09-28,False,1980
+13,14,USA,New York State,,1980-10-05,United States Grand Prix,conventional,Practice 1,1980-10-03,Practice 2,1980-10-03,Practice 3,1980-10-04,Qualifying,1980-10-04,Race,1980-10-05,False,1980

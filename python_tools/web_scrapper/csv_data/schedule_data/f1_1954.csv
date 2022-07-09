@@ -1,0 +1,10 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Argentina,Buenos Aires,,1954-01-17,Argentine Grand Prix,conventional,Practice 1,1954-01-15,Practice 2,1954-01-15,Practice 3,1954-01-16,Qualifying,1954-01-16,Race,1954-01-17,False,1954
+1,2,USA,Indianapolis,,1954-05-31,Indianapolis 500,conventional,Practice 1,1954-05-29,Practice 2,1954-05-29,Practice 3,1954-05-30,Qualifying,1954-05-30,Race,1954-05-31,False,1954
+2,3,Belgium,Spa,,1954-06-20,Belgian Grand Prix,conventional,Practice 1,1954-06-18,Practice 2,1954-06-18,Practice 3,1954-06-19,Qualifying,1954-06-19,Race,1954-06-20,False,1954
+3,4,France,Reims,,1954-07-04,French Grand Prix,conventional,Practice 1,1954-07-02,Practice 2,1954-07-02,Practice 3,1954-07-03,Qualifying,1954-07-03,Race,1954-07-04,False,1954
+4,5,UK,Silverstone,,1954-07-17,British Grand Prix,conventional,Practice 1,1954-07-15,Practice 2,1954-07-15,Practice 3,1954-07-16,Qualifying,1954-07-16,Race,1954-07-17,False,1954
+5,6,Germany,Nürburg,,1954-08-01,German Grand Prix,conventional,Practice 1,1954-07-30,Practice 2,1954-07-30,Practice 3,1954-07-31,Qualifying,1954-07-31,Race,1954-08-01,False,1954
+6,7,Switzerland,Bern,,1954-08-22,Swiss Grand Prix,conventional,Practice 1,1954-08-20,Practice 2,1954-08-20,Practice 3,1954-08-21,Qualifying,1954-08-21,Race,1954-08-22,False,1954
+7,8,Italy,Monza,,1954-09-05,Italian Grand Prix,conventional,Practice 1,1954-09-03,Practice 2,1954-09-03,Practice 3,1954-09-04,Qualifying,1954-09-04,Race,1954-09-05,False,1954
+8,9,Spain,Barcelona,,1954-10-24,Spanish Grand Prix,conventional,Practice 1,1954-10-22,Practice 2,1954-10-22,Practice 3,1954-10-23,Qualifying,1954-10-23,Race,1954-10-24,False,1954

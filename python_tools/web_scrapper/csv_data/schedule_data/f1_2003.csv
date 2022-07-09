@@ -1,0 +1,17 @@
+,RoundNumber,Country,Location,OfficialEventName,EventDate,EventName,EventFormat,Session1,Session1Date,Session2,Session2Date,Session3,Session3Date,Session4,Session4Date,Session5,Session5Date,F1ApiSupport,Year
+0,1,Australia,Melbourne,,2003-03-09,Australian Grand Prix,conventional,Practice 1,2003-03-07,Practice 2,2003-03-07,Practice 3,2003-03-08,Qualifying,2003-03-08,Race,2003-03-09,False,2003
+1,2,Malaysia,Kuala Lumpur,,2003-03-23,Malaysian Grand Prix,conventional,Practice 1,2003-03-21,Practice 2,2003-03-21,Practice 3,2003-03-22,Qualifying,2003-03-22,Race,2003-03-23,False,2003
+2,3,Brazil,São Paulo,,2003-04-06,Brazilian Grand Prix,conventional,Practice 1,2003-04-04,Practice 2,2003-04-04,Practice 3,2003-04-05,Qualifying,2003-04-05,Race,2003-04-06,False,2003
+3,4,Italy,Imola,,2003-04-20,San Marino Grand Prix,conventional,Practice 1,2003-04-18,Practice 2,2003-04-18,Practice 3,2003-04-19,Qualifying,2003-04-19,Race,2003-04-20,False,2003
+4,5,Spain,Montmeló,,2003-05-04,Spanish Grand Prix,conventional,Practice 1,2003-05-02,Practice 2,2003-05-02,Practice 3,2003-05-03,Qualifying,2003-05-03,Race,2003-05-04,False,2003
+5,6,Austria,Spielberg,,2003-05-18,Austrian Grand Prix,conventional,Practice 1,2003-05-16,Practice 2,2003-05-16,Practice 3,2003-05-17,Qualifying,2003-05-17,Race,2003-05-18,False,2003
+6,7,Monaco,Monte-Carlo,,2003-06-01,Monaco Grand Prix,conventional,Practice 1,2003-05-30,Practice 2,2003-05-30,Practice 3,2003-05-31,Qualifying,2003-05-31,Race,2003-06-01,False,2003
+7,8,Canada,Montreal,,2003-06-15,Canadian Grand Prix,conventional,Practice 1,2003-06-13,Practice 2,2003-06-13,Practice 3,2003-06-14,Qualifying,2003-06-14,Race,2003-06-15,False,2003
+8,9,Germany,Nürburg,,2003-06-29,European Grand Prix,conventional,Practice 1,2003-06-27,Practice 2,2003-06-27,Practice 3,2003-06-28,Qualifying,2003-06-28,Race,2003-06-29,False,2003
+9,10,France,Magny Cours,,2003-07-06,French Grand Prix,conventional,Practice 1,2003-07-04,Practice 2,2003-07-04,Practice 3,2003-07-05,Qualifying,2003-07-05,Race,2003-07-06,False,2003
+10,11,UK,Silverstone,,2003-07-20,British Grand Prix,conventional,Practice 1,2003-07-18,Practice 2,2003-07-18,Practice 3,2003-07-19,Qualifying,2003-07-19,Race,2003-07-20,False,2003
+11,12,Germany,Hockenheim,,2003-08-03,German Grand Prix,conventional,Practice 1,2003-08-01,Practice 2,2003-08-01,Practice 3,2003-08-02,Qualifying,2003-08-02,Race,2003-08-03,False,2003
+12,13,Hungary,Budapest,,2003-08-24,Hungarian Grand Prix,conventional,Practice 1,2003-08-22,Practice 2,2003-08-22,Practice 3,2003-08-23,Qualifying,2003-08-23,Race,2003-08-24,False,2003
+13,14,Italy,Monza,,2003-09-14,Italian Grand Prix,conventional,Practice 1,2003-09-12,Practice 2,2003-09-12,Practice 3,2003-09-13,Qualifying,2003-09-13,Race,2003-09-14,False,2003
+14,15,USA,Indianapolis,,2003-09-28,United States Grand Prix,conventional,Practice 1,2003-09-26,Practice 2,2003-09-26,Practice 3,2003-09-27,Qualifying,2003-09-27,Race,2003-09-28,False,2003
+15,16,Japan,Suzuka,,2003-10-12,Japanese Grand Prix,conventional,Practice 1,2003-10-10,Practice 2,2003-10-10,Practice 3,2003-10-11,Qualifying,2003-10-11,Race,2003-10-12,False,2003
