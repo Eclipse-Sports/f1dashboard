@@ -1,0 +1,15 @@
+#Jupyter checkpoints to ignore
+python_tools/fastf1_colletor/.ipynb_checkpoints
+
+#Cache for fastf1
+python_tools/fastf1_collector/FastF1Cache
+
+#Node modules and DS Stores
+dashboard/node_modules
+._.DS_Store
+dashboard/._.DS_Store
+python_tools/._.DS_Store
+
+#Ignore specific tpe of files
+csv_data/schedule_data/*.csv
+csv_data/driver_data/*.csv

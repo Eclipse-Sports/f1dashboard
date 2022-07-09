@@ -1,0 +1,83 @@
+##External imports
+import numpy as np
+import fastf1
+import pandas as pd
+import fastf1.api
+
+
+
+#Internal Imports
+import os
+import re
+from datetime import date
+import requests
+import datetime
+
+#Enable the F1 local cache connection
+fastf1.Cache.enable_cache('./FastF1Cache')
+
+#Fetching the driver information
+list_of_schedules = os.listdir("../../csv_data/schedule_data")
+drivers = pd.DataFrame()    
+year_problem = []
+#print(pd.read_csv("../../csv_data/schedule_data/{}".format(list_of_schedules[0])))
+#Get the initial name information to start the dictionary relationship
+def get_yearly_driver_data(drivers, year):
+    count_2 = 0
+    #Get the driver data for the year
+    df = pd.read_csv("../../csv_data/schedule_data/f1_{}.csv".format(year))
+    for race in df.index:
+        curr_race = df.loc[race]
+        print(curr_race['Location'])
+        session = fastf1.get_session(year, curr_race['Location'], 'R')
+        try:
+            session.load(laps = False, weather = False)
+        except:
+            count_2 = count_2 + 1
+            year_problem.append([curr_race['Location'], year])
+            continue
+        results = session.results.reset_index(drop = True)
+        results['Year'] = results.shape[0] * [year]
+        results["Race"] = curr_race["Location"]
+        drivers = pd.concat([drivers, results])
+    return count_2, drivers
+
+def get_all_data():
+    drivers = pd.DataFrame()
+    count = 0
+    for year in range(1950, datetime.date.today().year+1):
+        count_2, drivers = get_yearly_driver_data(drivers, year)
+        count = count + count_2
+        print(drivers)
+    return count, drivers
+
+
+def group_driver_data(full_data):
+    #Group the driver data by driver name
+    driver_names = full_data['FullName'].unique()
+    for name in driver_names:
+        curr_data = full_data.loc[full_data['FullName'] == name]
+        curr_data = curr_data.reset_index(drop = True)
+        curr_data.to_csv("../../csv_data/driver_data/{}_data.csv".format(name.lower().replace(" ", "_")))
+    print("All Files Saved - Success!")
+#Lines for savind the initial data
+#full_data = get_all_data()[1]
+#full_data.to_csv("../../csv_data/driver_data/f1_driver_data.csv")
+#print(full_data)
+    
+
+full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv", index_col = 0)
+group_driver_data(full_data)
+
+
+    
+
+
+
+        
+
+    
+
+
+#for year in list_of_schedules:
+#    df = pd.read_csv("../../csv_data/schedule_data/" + year)]
