@@ -18,10 +18,26 @@ fastf1.Cache.enable_cache('./FastF1Cache')
 
 #This block is for getting all the event schedule data - not necessary to run every time, Ill make an update function instead for recent events
 #Clean event schedule
+def setup():
+    try:
+        os.chdir("../..")
+        if not(os.path.isdir('csv_data')):
+            os.makedirs('csv_data', exist_ok = True)
+        os.chdir("./csv_data")
+        if not(os.path.isdir('schedule_data')):
+            os.makedirs('schedule_data', exist_ok = True)
+        os.chdir("../python_tools/fastf1_collector")
+        print("Setup Complete - Success!")
+        return True
+    except:
+        print("Setup Failed - Failure!")
+        return False
+
+
 def get_schedule():
     general_data = fastf1.get_event_schedule(1950)
     for year in range(1951, int(datetime.date.today().year)+ 1):
-        general_data = pd.concat([general_data, fastf1.get_event_schedule(year)])
+        general_data = pd.concat([general_data, fastf1.get_event_schedule(year, include_testing = False)])
     general_data = general_data.reset_index(drop = True)
     general_data['Year'] = general_data['EventDate'].apply(lambda cur: cur.year)
     return general_data
@@ -40,5 +56,6 @@ def save_all_years(all_schedule):
         
 
 #Get all schedule data
+setup()
 gen_data = get_schedule()
 save_all_years(gen_data)

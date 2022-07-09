@@ -22,30 +22,53 @@ drivers = pd.DataFrame()
 year_problem = []
 #print(pd.read_csv("../../csv_data/schedule_data/{}".format(list_of_schedules[0])))
 #Get the initial name information to start the dictionary relationship
+
+def setup():
+    try:
+        os.chdir("../..")
+        if not(os.path.isdir('csv_data')):
+            os.makedirs('csv_data', exist_ok = True)
+        os.chdir("./csv_data")
+        if not(os.path.isdir('driver_data')):
+            os.makedirs('driver_data', exist_ok = True)
+        os.chdir("../python_tools/fastf1_collector")
+        print("Setup Complete - Success!")
+        return True
+    except:
+        print("Setup Failed - Failure!")
+        return False
+
+
 def get_yearly_driver_data(drivers, year):
     count_2 = 0
     #Get the driver data for the year
     df = pd.read_csv("../../csv_data/schedule_data/f1_{}.csv".format(year))
     for race in df.index:
         curr_race = df.loc[race]
-        print(curr_race['Location'])
-        session = fastf1.get_session(year, curr_race['Location'], 'R')
+        session = fastf1.get_session(year, curr_race["RoundNumber"], 'R')
         try:
             session.load(laps = False, weather = False)
         except:
             count_2 = count_2 + 1
             year_problem.append([curr_race['Location'], year])
             continue
-        results = session.results.reset_index(drop = True)
+        if year == 2020 and curr_race["RoundNumber"] == 2:
+            results.sort_values(['FullName'])
+        else:
+            results = session.results.reset_index(drop = True)
+        #manual fix for styrian GP
         results['Year'] = results.shape[0] * [year]
         results["Race"] = curr_race["Location"]
+        results['Date'] = session.date
+        print(results)
         drivers = pd.concat([drivers, results])
+        print(drivers)
     return count_2, drivers
 
 def get_all_data():
     drivers = pd.DataFrame()
     count = 0
-    for year in range(1950, datetime.date.today().year+1):
+    for year in range(1950, 2021):
         count_2, drivers = get_yearly_driver_data(drivers, year)
         count = count + count_2
         print(drivers)
@@ -60,24 +83,12 @@ def group_driver_data(full_data):
         curr_data = curr_data.reset_index(drop = True)
         curr_data.to_csv("../../csv_data/driver_data/{}_data.csv".format(name.lower().replace(" ", "_")))
     print("All Files Saved - Success!")
-#Lines for savind the initial data
-#full_data = get_all_data()[1]
-#full_data.to_csv("../../csv_data/driver_data/f1_driver_data.csv")
-#print(full_data)
-    
 
+
+#Lines for saving the initial data
+setup()
+full_data = get_all_data()[1]
+full_data.to_csv("../../csv_data/driver_data/f1_driver_data.csv")
 full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv", index_col = 0)
 group_driver_data(full_data)
 
-
-    
-
-
-
-        
-
-    
-
-
-#for year in list_of_schedules:
-#    df = pd.read_csv("../../csv_data/schedule_data/" + year)]

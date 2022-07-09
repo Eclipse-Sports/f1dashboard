@@ -57,9 +57,10 @@ def location_to_map_with_counts():
             track_map[track] = 1
     return track_map
 
-
+def make_capital()
 #SOME OF THESE ARE POLE POSITIONS BUT SOME ARE JUST FIRST ON GRID, CHECK FOR ERRORS
 def get_all_winners_poles(Location):
+    Location = make_capital(Location)
     winners = {}
     poles = {}
     for year in range(1950, date.today().year + 1):
@@ -90,7 +91,6 @@ def get_all_winners_poles(Location):
                 winners[year] = winner_full_name
                 poles[year] = q3_full_name
     return winners, poles
-
 
 
 # tracks_df = pd.DataFrame.from_dict(location_to_map_with_counts(), orient='index')

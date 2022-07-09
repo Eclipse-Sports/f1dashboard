@@ -13,3 +13,4 @@ python_tools/._.DS_Store
 #Ignore specific tpe of files
 csv_data/schedule_data/*.csv
 csv_data/driver_data/*.csv
+.env
