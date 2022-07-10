@@ -16,3 +16,7 @@ csv_data
 
 #Big test file for fetching page
 python_tools/fastf1_collector/test_f1_api_call
+
+
+#Extra
+python_tools/utils/api_doc.py

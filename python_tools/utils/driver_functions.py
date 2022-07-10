@@ -48,7 +48,7 @@ def get_driver_experience(name, tag = None):
     data = get_driver_df(name, tag)
     first_year = data.iloc[0]["Date"]
     last_year = data.iloc[data.shape[0]-1]["Date"]
-    first_year, last_year = datetime.strptime(first_year, '%Y-%m-%d %H:%M:%S'), datetime.strptime(last_year, '%Y-%m-%d %H:%M:%S')
+    first_year, last_year = datetime.strptime(first_year, '%Y-%m-%d'), datetime.strptime(last_year, '%Y-%m-%d')
     diff = last_year - first_year
     #The return does not account for leap years and so on, might be slighly off.
     days = diff.days
@@ -68,6 +68,7 @@ def check_driver_teams(name, tag = None):
     #Get the path to the main file
     data = get_driver_df(name, tag)
     teams = getTeamsGrouped(data)
+    return teams
 
 #Returns how long the driver has been in formula 1 for. 
     #Parameters:
@@ -83,12 +84,12 @@ def check_driver_teams(name, tag = None):
             #per = "team" and type = "podiums": Number of podiums in different teams. Format is {Max Verstappen= {Toro Rosso : 0, Red Bull : 67 } - number of podiums might be more for Max now.
 def win_data(name, per = "all", type = "wins", track = None, season = None):
     try:
-        data = get_driver_df(name)
+        data = get_driver_df(name, None)
     except:
-        print("Coulnd't find the driver data.")
+        print("Couldn't find the driver data.")
         return ValueError("An error has occured finding the driver experience.")
     if per == "all":
-        return get_relevant(data, "wins")
+        return get_relevant(data, type)
     elif per == "track":
         track_data = get_track(data, track)
         return get_relevant(track_data, type)
@@ -108,7 +109,7 @@ def win_data(name, per = "all", type = "wins", track = None, season = None):
 
 #Helpers for win_data:
 def get_track(df, track):
-    return df[df["Track"] == track]
+    return df[df["Race"] == track]
 
 def get_season(df, season):
     return df[df["Year"] == season]
@@ -117,8 +118,8 @@ def get_season(df, season):
 def getTeamsGrouped(df):
     teams = {}
     for team in df["TeamName"].unique():
-        relevant_team = df[df["TeamName"] == team].sort_values(by = "Date", ascending = False)
-        first_year, last_year = relevant_team.iloc[0]["Date"], relevant_team.iloc[relevant_team.shape[0]-1]["Date"]
+        relevant_team = df[df["TeamName"] == team].sort_values(by = "Year", ascending = False)
+        first_year, last_year = relevant_team.iloc[relevant_team.shape[0]-1]["Year"], relevant_team.iloc[0]["Year"]
         teams[team] = [first_year, last_year]
     return teams
 
@@ -138,4 +139,4 @@ def get_relevant(df, type):
 
 
 #Test the code
-print(get_driver_experience(""))
+print(win_data("Valtteri Bottas", 'all', 'points'))
