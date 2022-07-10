@@ -13,7 +13,8 @@ import datetime
 
 
 # Setting up the cache for fast API
-#os.makedirs("./f1dashboard/python_tools/fastf1_collector/FastF1Cache", exist_ok = True)
+os.makedirs(
+    "./FastF1Cache", exist_ok=True)
 fastf1.Cache.enable_cache('./FastF1Cache')
 
 # This block is for getting all the event schedule data - not necessary to run every time, Ill make an update function instead for recent events
