@@ -9,6 +9,7 @@ dashboard/node_modules
 ._.DS_Store
 dashboard/._.DS_Store
 python_tools/._.DS_Store
+api/node_modules
 
 #Ignore specific tpe of files
 csv_data
@@ -20,3 +21,4 @@ python_tools/fastf1_collector/test_f1_api_call
 
 #Extra
 python_tools/utils/api_doc.py
+python_tools/utils/test_f1_api_call
