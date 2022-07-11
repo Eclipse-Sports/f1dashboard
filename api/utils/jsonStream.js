@@ -1,18 +1,14 @@
 import axios from "axios";
+import fs from "fs";
 
-async function inputJsonStream(url) {
-    axios.fetch(url).then(response => {
-        var streamReader = response.body.getReader();
-        var chunks = [];
-        var done = fals
-        e;
-        while (!done) {
-            ({value, done}) = await streamReader.read();
-            if (done) {
-                return chunks;
-            }
-            chunks.push(value);
-        }
+
+async function inputJsonStream(url, zipped = false) {
+    axios.get(url).then(response => {
+        console.warn(response);
+        return response.data;
+    })
+    .then(rb => {
+        var streamData = rb.getReader();
     });
 }
 

@@ -23,9 +23,9 @@ const pages = [
   "ChampionshipPrediction.jsonStream", // Points
 ];
 
-var data = await csv().fromFile(
-  "/Users/ergunacikoz/projects/f1dashboard/api/f1_2020.csv"
-);
+// var data = await csv().fromFile(
+//   "/Users/ergunacikoz/projects/f1dashboard/api/f1_2020.csv"
+// );
 
 const baseURL = "https://livetiming.formula1.com/static/";
 

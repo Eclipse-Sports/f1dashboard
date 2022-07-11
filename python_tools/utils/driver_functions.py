@@ -1,5 +1,4 @@
 #Outside imports
-from matplotlib.pyplot import get
 import pandas as pd
 from dotenv import load_dotenv
 

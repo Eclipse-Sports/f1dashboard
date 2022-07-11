@@ -11,6 +11,11 @@ dashboard/._.DS_Store
 python_tools/._.DS_Store
 api/node_modules
 
+#Package Lock files
+dashboard/package-lock.json
+api/package-lock.json
+backend/package-lock.json
+
 #Ignore specific tpe of files
 csv_data
 .env

@@ -47,6 +47,11 @@ def get_yearly_driver_data(drivers, year):
         curr_race = df.loc[race]
         session = fastf1.get_session(year, curr_race["RoundNumber"], 'R')
         try:
+            sprint = fastf1.get_session(year, curr_race["RoundNumber"], 'S')
+            sprint.load(laps= False, weather = False)
+        except:
+            sprint = None
+        try:
             session.load(laps = False, weather = False)
         except:
             count_2 = count_2 + 1
@@ -60,7 +65,13 @@ def get_yearly_driver_data(drivers, year):
         results['Year'] = results.shape[0] * [year]
         results["Race"] = curr_race["Location"]
         results['Date'] = session.date
-        print(results)
+        if sprint != None:
+            sprint_race = sprint.results.reset_index(drop = True)
+            sprint_race['Year'] = sprint_race.shape[0] * [year]
+            sprint_race["Race"] = curr_race["Location"]
+            sprint_race["Date"] = sprint.date
+            print(sprint)
+            drivers = pd.concat([drivers, sprint_race])
         drivers = pd.concat([drivers, results])
         print(drivers)
     return count_2, drivers
@@ -89,6 +100,6 @@ def group_driver_data(full_data):
 setup()
 full_data = get_all_data()[1]
 full_data.to_csv("../../csv_data/driver_data/f1_driver_data.csv")
-full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv", index_col = 0)
+full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv")
 group_driver_data(full_data)
 
