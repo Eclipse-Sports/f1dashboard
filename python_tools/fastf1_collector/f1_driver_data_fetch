@@ -1,4 +1,5 @@
 ##External imports
+from operator import index
 import numpy as np
 import fastf1
 import pandas as pd
@@ -98,8 +99,10 @@ def group_driver_data(full_data):
 
 #Lines for saving the initial data
 setup()
+#If you have fixed the driver data, do not uncomment this! We still need to fix the data.
 full_data = get_all_data()[1]
 full_data.to_csv("../../csv_data/driver_data/f1_driver_data.csv")
-full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv")
+full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv", sep = ";", index_col= False).drop(columns = ['Unnamed: 0'])
+print(full_data)
 group_driver_data(full_data)
 
