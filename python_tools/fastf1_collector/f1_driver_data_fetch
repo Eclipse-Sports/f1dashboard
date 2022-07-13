@@ -4,6 +4,7 @@ import numpy as np
 import fastf1
 import pandas as pd
 import fastf1.api
+from dotenv import load_dotenv
 
 
 
@@ -15,7 +16,9 @@ import requests
 import datetime
 
 #Enable the F1 local cache connection
-fastf1.Cache.enable_cache('./FastF1Cache')
+load_dotenv()
+fastf1.Cache.enable_cache("{}/python_tools/fastf1_collector/FastF1Cache".format(os.getenv("MAIN_PATH")))
+os.chdir("{}/python_tools/fastf1_collector".format(os.getenv("MAIN_PATH")))
 
 #Fetching the driver information
 list_of_schedules = os.listdir("../../csv_data/schedule_data")
@@ -66,11 +69,15 @@ def get_yearly_driver_data(drivers, year):
         results['Year'] = results.shape[0] * [year]
         results["Race"] = curr_race["Location"]
         results['Date'] = session.date
+        results['Type'] = "R"
+        results['Round Number'] = curr_race["RoundNumber"]
         if sprint != None:
             sprint_race = sprint.results.reset_index(drop = True)
             sprint_race['Year'] = sprint_race.shape[0] * [year]
             sprint_race["Race"] = curr_race["Location"]
             sprint_race["Date"] = sprint.date
+            sprint_race["Type"] = "S"
+            sprint_race['Round Number'] = curr_race["RoundNumber"]
             print(sprint)
             drivers = pd.concat([drivers, sprint_race])
         drivers = pd.concat([drivers, results])
@@ -96,13 +103,28 @@ def group_driver_data(full_data):
         curr_data.to_csv("../../csv_data/driver_data/{}_data.csv".format(name.lower().replace(" ", "_")))
     print("All Files Saved - Success!")
 
+def update_driver_data(year):
+    #Update driver data depending on the year inputed. If the year is 2020, it will update the driver data for the 2020 season onwards.
+    full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv")
+    unchanged_data = full_data[full_data["Year"] < year]
+    drivers = pd.DataFrame()
+    for i in range(year, datetime.date.today().year + 1):
+        count_2, drivers = get_yearly_driver_data(drivers, year)
+    full_data = pd.concat([unchanged_data, drivers])
+    full_data.to_csv("../../csv_data/driver_data/f1_driver_data.csv")
+    print("Update Successfull!")
+    return full_data
+
+def collect_all():
+    full_data = get_all_data()[1]
+    full_data.to_csv("../../csv_data/driver_data/f1_driver_data.csv")
+    full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv", sep = ",", index_col = False)
+    full_data = full_data.drop(full_data.columns[0], axis=1)
+    group_driver_data(full_data)
 
 #Lines for saving the initial data
 setup()
-#If you have fixed the driver data, do not uncomment this! We still need to fix the data.
-full_data = get_all_data()[1]
-full_data.to_csv("../../csv_data/driver_data/f1_driver_data.csv")
-full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv", sep = ";", index_col= False).drop(columns = ['Unnamed: 0'])
-print(full_data)
-group_driver_data(full_data)
+full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv", sep = ",", index_col = False)
+full_data = full_data.drop(full_data.columns[0], axis=1)
+
 

@@ -1,6 +1,8 @@
 #Outside imports
 import pandas as pd
 from dotenv import load_dotenv
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 #System level imports
 import os
@@ -29,6 +31,7 @@ def get_driver_df(name, tag):
             driver_name = all_drivers[all_drivers["Abbreviation"] == tag].iloc[0]["FullName"]
             file_path = main_path + "driver_data.{}.csv".format(driver_name)
         data = pd.read_csv(file_path)
+        data = data.drop(columns = data.columns[0])
         return data
     except:
         print(print("An error has occured finding the driver experience. Please make sure the name is in the right format (FirstName, LastName, eg. Lewis Hamilton). You can provide tag as a keyword aarguement as well."))
@@ -127,6 +130,7 @@ def get_relevant(df, type):
         print("An error has occured - make sure you have entered the relevant field for your data.")
         return Exception("Exception - no valid field entered")
     if type == "podiums":
+        print(df)
         return df["Position"].apply(lambda x: x < 4 and x !=0 ).sum()
     elif type == "wins":
         return df["Position"].apply(lambda x: x == 1).sum()
@@ -136,6 +140,40 @@ def get_relevant(df, type):
         return ValueError("Invalid type")
 
 
+#Returns a graph of the drivers start positions vs the end positions (a bar chart).
+    #Parameters:
+        #name: The name of the driver. Format is firts name and last name (e.g. "Lewis Hamilton")
+        #per: The type of event you want. Can be "S" for sprint or "R" for "race". "Q" is not supported, (duh). "all" gives both race and sprint.
+    #Returns:
+        #Bar chart of start positions vs end positions, overlapped.
+    #Disclaimer: Grid position data has problems at the moment - if there is a penalty after the sprint race, we do not detec that!
+def graph_start_end(driver, per = "all"):
+    try:
+        driver_data = get_driver_df(driver, None)
+    except:
+        print("Couldn't find the driver data.")
+        return ValueError("An error has occured finding the driver experience.")
+    if per == "all":
+        driver_data = driver_data
+    else:
+        driver_data = driver_data[driver_data["Type"] == per]
+    starts = driver_data["GridPosition"].value_counts()
+    print(starts)
+    starts.index = starts.index.astype(int)
+    ends = driver_data["Position"].value_counts()
+    ends.index = ends.index.astype(int)
+    starts_df = pd.DataFrame(starts).reset_index().rename({"index":"Count", "GridPosition":"Position"}, axis =1)
+    starts_df["Type"] = "Start"
+    ends_df = pd.DataFrame(ends).reset_index().rename({"index":"Count"}, axis =1)
+    ends_df["Type"] = "End"
+    df = pd.concat([starts_df, ends_df])
+    print(df)
+    sns.barplot(x='Count', y='Position', hue='Type', data=df) 
+    plt.xlabel("Position")
+    plt.ylabel("Count")
+    plt.title("Start Position vs End Position in a GP for {}".format(driver))
+    plt.show()
+    print("Disclaimer: Grid position data has problems at the moment - if there is a penalty after the sprint race, we do not detec that!")
 
 #Test the code
-print(win_data("Valtteri Bottas", 'all', 'points'))
+graph_start_end("Max Verstappen", 'R')
