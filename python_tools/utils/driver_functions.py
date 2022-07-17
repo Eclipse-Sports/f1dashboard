@@ -158,7 +158,6 @@ def graph_start_end(driver, per = "all"):
     else:
         driver_data = driver_data[driver_data["Type"] == per]
     starts = driver_data["GridPosition"].value_counts()
-    print(starts)
     starts.index = starts.index.astype(int)
     ends = driver_data["Position"].value_counts()
     ends.index = ends.index.astype(int)
@@ -167,7 +166,6 @@ def graph_start_end(driver, per = "all"):
     ends_df = pd.DataFrame(ends).reset_index().rename({"index":"Count"}, axis =1)
     ends_df["Type"] = "End"
     df = pd.concat([starts_df, ends_df])
-    print(df)
     sns.barplot(x='Count', y='Position', hue='Type', data=df) 
     plt.xlabel("Position")
     plt.ylabel("Count")
@@ -175,5 +173,29 @@ def graph_start_end(driver, per = "all"):
     plt.show()
     print("Disclaimer: Grid position data has problems at the moment - if there is a penalty after the sprint race, we do not detec that!")
 
+def get_driver_number(name, tag = None):
+    df = get_driver_df(name, tag)
+    return df['Abbreviation'].iloc[0]
+
+#gETS
+def get_not_finished(name, tag= None):
+    df = get_driver_df(name, tag)
+    not_finished = df.loc[df["Status"] != "Finished"]
+    truth_table =not_finished[~not_finished["Status"].str.contains("Lap")]
+    return not_finished.loc[truth_table.index]
 #Test the code
-graph_start_end("Max Verstappen", 'R')
+
+def get_driver_number(name, tag = None):
+    df = get_driver_df(name, tag)
+    driver_numbers = df['DriverNumber'].unique()
+    print(driver_numbers)
+    mapping = {}
+    for number in driver_numbers:
+        number_df = df[df["DriverNumber"] == number]["Year"]
+        years = number_df.unique()
+        maximum, minimum = max(years) , min(years)
+        mapping[number] = [minimum, maximum]
+    return mapping
+
+
+print(get_driver_number("Max Verstappen"))

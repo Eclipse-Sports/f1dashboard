@@ -5,6 +5,7 @@ import fastf1
 import pandas as pd
 import fastf1.api
 from dotenv import load_dotenv
+import heapq
 
 
 
@@ -28,6 +29,7 @@ year_problem = []
 #Get the initial name information to start the dictionary relationship
 
 def setup():
+    pd.options.mode.chained_assignment = None
     try:
         os.chdir("../..")
         if not(os.path.isdir('csv_data')):
@@ -122,9 +124,108 @@ def collect_all():
     full_data = full_data.drop(full_data.columns[0], axis=1)
     group_driver_data(full_data)
 
+
+#Save the driver standing of the relevant year, at the current race, and also standing at that moment.
+def collect_driver_points(full_data):
+    start = 1950
+    new_df = pd.DataFrame()
+    full_data = full_data.copy()
+    count = 0
+    while(start < datetime.date.today().year + 1):
+        end = start + 10
+        for year in range(start, end):
+            yearly_data = full_data[full_data["Year"] == year].sort_values(["Date"])
+            drivers = {}
+            for i in range(yearly_data.shape[0]):
+                curr_data = yearly_data.iloc[i]
+                if curr_data["FullName"] not in drivers:
+                    drivers[curr_data["FullName"]] = curr_data['Points']
+                else:
+                    drivers[curr_data["FullName"]] = drivers[curr_data["FullName"]] + curr_data['Points']
+                curr_data['PointsSoFar'] = drivers[curr_data["FullName"]]
+                new_df = pd.concat([new_df, curr_data], axis = 1)
+            print('Year {} Complete - Success!'.format(year))
+        new_df.transpose().to_csv("../../csv_data/driver_data/f1_driver_standings_points.csv")
+        start = end
+
+
+
+def collect_driver_standings(yearly_data):
+    #For each race, do the following:
+    drivers = {}
+    yearly_data["PositionInSeason"] = [0 for i in range(yearly_data.shape[0])]
+    race_dates = yearly_data["Date"].unique() 
+    drivers_all = yearly_data["FullName"].unique() 
+    for d in drivers_all:
+        drivers[d] = [0, []]
+    for race in race_dates:
+        curr_race = yearly_data[yearly_data["Date"] == race]
+        drivers = save_race_data(drivers, curr_race)
+        order_data = order_standings(curr_race[["Date", "FullName"]], drivers)
+
+    
+
+#Helper funciton to save race data into dictionary
+def save_race_data(drivers, race_df):
+    for row in range(0, race_df.shape[0]):
+        curr = race_df.iloc[row]
+        drivers[curr["FullName"]][0] = curr["PointsSoFar"]
+        drivers[curr["FullName"]][1].append(curr["Position"])
+    for key in drivers.keys():
+        drivers[key][1].sort()
+    return drivers
+
+
+def order_standings(comparison_df, drivers):
+    count = 1
+    order_data = comparison_df.copy()
+    driver_order = {}
+    points_used = {}
+    points_so_far = order_data['PointsSoFar']
+    for point in points_so_far:
+        if point in points_used{}:
+            tie_breaker(point, drivers, comparison_df, count)
+        else:
+            points_used[point] = 0
+    race_drivers = comparison_df["FullName"]
+
+def tie_breaker(point, drivers, df, count):
+    new_df = df[df["PointsSoFar"] == point]
+    count_added = new_df.shape[0]
+    count = count + count_added
+    return 
+
+    #Careful about using drivers dict directly here - after a while, more drivers than possible (Hulkenberg, 2022)
+
+
+#def compare()
+def standing_helper(df, name):
+    values = df[name]
+    values = values.sort_values(ascending = False)
+    dct = {}
+    for i in range(1, len(values) + 1):
+        dct[values[i-1]] = i
+    print(dct)
+    vals_unoredered = df[name]
+    lst = []
+    for i in range(len(vals_unoredered)):
+        lst.append(dct[vals_unoredered[i]])
+    return lst
+
+
+
+
+#Combine the saved driver standing data with points to a full dataframe
+    
+#def get_all_standings():
+
 #Lines for saving the initial data
 setup()
-full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_data.csv", sep = ",", index_col = False)
-full_data = full_data.drop(full_data.columns[0], axis=1)
+
+full_data = pd.read_csv("../../csv_data/driver_data/f1_driver_standings_points.csv", sep = ",", index_col = False)
+full_data  = full_data.drop(full_data.columns[0], axis=1)
+collect_driver_standings(full_data[full_data["Year"] == 2021])
+#collect_driver_standings(full_data)
+# full_data = full_data.drop(full_data.columns[0], axis=1)
 
 
