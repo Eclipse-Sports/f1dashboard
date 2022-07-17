@@ -6,6 +6,7 @@ python_tools/fastf1_collector/FastF1Cache
 
 #Node modules and DS Stores
 dashboard/node_modules
+backend/node_modules
 ._.DS_Store
 dashboard/._.DS_Store
 python_tools/._.DS_Store
