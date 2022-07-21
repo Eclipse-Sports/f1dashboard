@@ -198,4 +198,4 @@ def get_driver_number(name, tag = None):
     return mapping
 
 
-print(get_driver_number("Max Verstappen"))
+print(graph_start_end("Charles Leclerc"))
